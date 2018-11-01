@@ -1,7 +1,7 @@
 # SecurityTrails
 
 [![Build Status](https://travis-ci.org/ninoseki/securitytrails.svg?branch=master)](https://travis-ci.org/ninoseki/securitytrails)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/797d576993224ddb9fdd54280417812b)](https://www.codacy.com/app/ninoseki/securitytrails?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ninoseki/securitytrails&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9637f5ed2b8943c28d9d61db778330fb)](https://www.codacy.com/app/ninoseki/securitytrails)
 [![Coverage Status](https://coveralls.io/repos/github/ninoseki/securitytrails/badge.svg?branch=master)](https://coveralls.io/github/ninoseki/securitytrails?branch=master)
 
 [SecurityTrails](https://securitytrails.com) API wrapper for Ruby.
@@ -68,7 +68,7 @@ api.ips.stats("ptr_part = 'amazon.com'")
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/securitytrails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/securitytrails.
 
 ## License
 
