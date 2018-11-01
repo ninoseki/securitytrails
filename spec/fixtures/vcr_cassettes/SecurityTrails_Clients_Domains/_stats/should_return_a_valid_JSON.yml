@@ -1,0 +1,115 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.securitytrails.com/v1/domains/stats?apikey=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"filter":{"ipv4":"1.1.1.1"}}'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.securitytrails.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 31 Oct 2018 13:30:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1145'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-Second:
+      - '2'
+      X-Ratelimit-Remaining-Second:
+      - '1'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - lkqscne5vrb1f81b7nsp2vkgqfgor3rg
+      X-Kong-Upstream-Latency:
+      - '1122'
+      X-Kong-Proxy-Latency:
+      - '1'
+      Via:
+      - kong/0.11.2
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "whois_organization_count": 1917,
+          "top_organizations": [
+            {
+              "key": "Domains By Proxy, LLC",
+              "count": 1430
+            },
+            {
+              "key": "WhoisGuard, Inc.",
+              "count": 513
+            },
+            {
+              "key": "Lile Inc.",
+              "count": 222
+            },
+            {
+              "key": "Just Energy",
+              "count": 211
+            },
+            {
+              "key": "Bristol-Myers Squibb",
+              "count": 166
+            },
+            {
+              "key": "yaolele",
+              "count": 153
+            },
+            {
+              "key": "Xin Ren Pan",
+              "count": 116
+            },
+            {
+              "key": "Bristol-Myers Squibb Company",
+              "count": 106
+            },
+            {
+              "key": "Black Point Arts Internet Solutions GmbH",
+              "count": 82
+            },
+            {
+              "key": "Whois privacy services, provided by DomainProtect LLC",
+              "count": 71
+            },
+            {
+              "key": "CSC Corporate Domains, Inc.",
+              "count": 56
+            },
+            {
+              "key": "Hetzner Online GmbH",
+              "count": 49
+            },
+            {
+              "key": "Nexperian Holding Limited",
+              "count": 48
+            },
+            {
+              "key": "N/A",
+              "count": 41
+            }
+          ],
+          "tld_count": 318,
+          "hostname_count": 26394,
+          "endpoint": "/v1/domains/stats",
+          "domain_count": 15900
+        }
+    http_version: 
+  recorded_at: Wed, 31 Oct 2018 13:30:14 GMT
+recorded_with: VCR 4.0.0

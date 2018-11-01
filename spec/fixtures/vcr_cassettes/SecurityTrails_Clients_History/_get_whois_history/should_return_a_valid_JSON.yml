@@ -1,0 +1,351 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.securitytrails.com/v1/history/github.com/whois/?apikey=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.securitytrails.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 31 Oct 2018 23:06:51 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '9682'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-Second:
+      - '2'
+      X-Ratelimit-Remaining-Second:
+      - '1'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - nu9fpvidmiosnuu51akoc4qo58qq7r77
+      X-Kong-Upstream-Latency:
+      - '35'
+      X-Kong-Proxy-Latency:
+      - '2'
+      Via:
+      - kong/0.11.2
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "result": {
+            "items": [
+              {
+                "updatedDate": 1371210528534,
+                "tld": "com",
+                "status": [
+                  "clientDeleteProhibited",
+                  "clientTransferProhibited",
+                  "clientUpdateProhibited"
+                ],
+                "started": 1409565503690,
+                "registrarName": "MARKMONITOR INC.",
+                "nameServers": [
+                  "NS1.P16.DYNECT.NET",
+                  "NS2.P16.DYNECT.NET",
+                  "NS3.P16.DYNECT.NET",
+                  "NS4.P16.DYNECT.NET"
+                ],
+                "expiresDate": 1602244128534,
+                "ended": 1512131429698,
+                "domain": "github.com",
+                "createdDate": 1191930528534,
+                "contactEmail": "hostmaster@github.com",
+                "contact": [
+                  {
+                    "type": "registrant",
+                    "telephone": "14157354488",
+                    "street1": "88 Colin P Kelly Jr St,",
+                    "state": "CA",
+                    "postalCode": "94107",
+                    "organization": "GitHub, Inc.",
+                    "name": "GitHub Hostmaster",
+                    "email": "hostmaster@github.com",
+                    "country": "UNITED STATES",
+                    "city": "San Francisco"
+                  },
+                  {
+                    "type": "administrativeContact",
+                    "telephone": "14157354488",
+                    "street1": "88 Colin P Kelly Jr St,",
+                    "state": "CA",
+                    "postalCode": "94107",
+                    "organization": "GitHub, Inc.",
+                    "name": "GitHub Hostmaster",
+                    "email": "hostmaster@github.com",
+                    "country": "UNITED STATES",
+                    "city": "San Francisco"
+                  },
+                  {
+                    "type": "administrativeContact",
+                    "telephone": "14157354488",
+                    "street1": "88 Colin P Kelly Jr St,",
+                    "state": "CA",
+                    "postalCode": "94107",
+                    "organization": "GitHub, Inc.",
+                    "name": "GitHub Hostmaster",
+                    "email": "hostmaster@github.com",
+                    "country": "UNITED STATES",
+                    "city": "San Francisco"
+                  },
+                  {
+                    "type": "technicalContact",
+                    "telephone": "14157354488",
+                    "street1": "88 Colin P Kelly Jr St,",
+                    "state": "CA",
+                    "postalCode": "94107",
+                    "organization": "GitHub, Inc.",
+                    "name": "GitHub Hostmaster",
+                    "email": "hostmaster@github.com",
+                    "country": "UNITED STATES",
+                    "city": "San Francisco"
+                  }
+                ]
+              },
+              {
+                "updatedDate": 1371215538799,
+                "tld": "com",
+                "status": [
+                  "clientDeleteProhibited",
+                  "clientTransferProhibited",
+                  "clientUpdateProhibited"
+                ],
+                "started": 1391256566158,
+                "registrarName": "MARKMONITOR INC.",
+                "nameServers": [
+                  "NS1.P16.DYNECT.NET",
+                  "NS2.P16.DYNECT.NET",
+                  "NS3.P16.DYNECT.NET",
+                  "NS4.P16.DYNECT.NET"
+                ],
+                "expiresDate": 1602249138799,
+                "ended": 1398986973772,
+                "domain": "github.com",
+                "createdDate": 1191935538799,
+                "contactEmail": "hostmaster@github.com",
+                "contact": [
+                  {
+                    "type": "registrant",
+                    "telephone": "14158575430",
+                    "street1": "88 Colin P Kelly Jr St,",
+                    "state": "CA",
+                    "postalCode": "94107",
+                    "organization": "GitHub, Inc.",
+                    "name": "GitHub Hostmaster",
+                    "email": "hostmaster@github.com",
+                    "country": "UNITED STATES",
+                    "city": "San Francisco"
+                  },
+                  {
+                    "type": "administrativeContact",
+                    "telephone": "14158575430",
+                    "street1": "88 Colin P Kelly Jr St,",
+                    "state": "CA",
+                    "postalCode": "94107",
+                    "organization": "GitHub, Inc.",
+                    "name": "GitHub Hostmaster",
+                    "email": "hostmaster@github.com",
+                    "country": "UNITED STATES",
+                    "city": "San Francisco"
+                  },
+                  {
+                    "type": "administrativeContact",
+                    "telephone": "14158575430",
+                    "street1": "88 Colin P Kelly Jr St,",
+                    "state": "CA",
+                    "postalCode": "94107",
+                    "organization": "GitHub, Inc.",
+                    "name": "GitHub Hostmaster",
+                    "email": "hostmaster@github.com",
+                    "country": "UNITED STATES",
+                    "city": "San Francisco"
+                  },
+                  {
+                    "type": "technicalContact",
+                    "telephone": "14158575430",
+                    "street1": "88 Colin P Kelly Jr St,",
+                    "state": "CA",
+                    "postalCode": "94107",
+                    "organization": "GitHub, Inc.",
+                    "name": "GitHub Hostmaster",
+                    "email": "hostmaster@github.com",
+                    "country": "UNITED STATES",
+                    "city": "San Francisco"
+                  }
+                ]
+              },
+              {
+                "updatedDate": 1371202608837,
+                "tld": "com",
+                "status": [
+                  "clientDeleteProhibited",
+                  "clientTransferProhibited",
+                  "clientUpdateProhibited"
+                ],
+                "started": 1375343965737,
+                "registrarName": "MARKMONITOR INC.",
+                "nameServers": [
+                  "NS1.P16.DYNECT.NET",
+                  "NS2.P16.DYNECT.NET",
+                  "NS3.P16.DYNECT.NET",
+                  "NS4.P16.DYNECT.NET"
+                ],
+                "expiresDate": 1602236208837,
+                "ended": 1383292780796,
+                "domain": "github.com",
+                "createdDate": 1191922608837,
+                "contactEmail": "hostmaster@github.com",
+                "contact": [
+                  {
+                    "type": "registrant",
+                    "telephone": "14158575430",
+                    "street1": "548 4th Street",
+                    "state": "CA",
+                    "postalCode": "94107",
+                    "organization": "GitHub, Inc.",
+                    "name": "GitHub Hostmaster",
+                    "fax": "14158575430",
+                    "email": "hostmaster@github.com",
+                    "country": "UNITED STATES",
+                    "city": "San Francisco"
+                  },
+                  {
+                    "type": "administrativeContact",
+                    "telephone": "14158575430",
+                    "street1": "548 4th Street",
+                    "state": "CA",
+                    "postalCode": "94107",
+                    "organization": "GitHub, Inc.",
+                    "name": "GitHub Hostmaster",
+                    "fax": "14158575430",
+                    "email": "hostmaster@github.com",
+                    "country": "UNITED STATES",
+                    "city": "San Francisco"
+                  },
+                  {
+                    "type": "administrativeContact",
+                    "telephone": "14158575430",
+                    "street1": "548 4th Street",
+                    "state": "CA",
+                    "postalCode": "94107",
+                    "organization": "GitHub, Inc.",
+                    "name": "GitHub Hostmaster",
+                    "fax": "14158575430",
+                    "email": "hostmaster@github.com",
+                    "country": "UNITED STATES",
+                    "city": "San Francisco"
+                  },
+                  {
+                    "type": "technicalContact",
+                    "telephone": "14158575430",
+                    "street1": "548 4th Street",
+                    "state": "CA",
+                    "postalCode": "94107",
+                    "organization": "GitHub, Inc.",
+                    "name": "GitHub Hostmaster",
+                    "fax": "14158575430",
+                    "email": "hostmaster@github.com",
+                    "country": "UNITED STATES",
+                    "city": "San Francisco"
+                  }
+                ]
+              },
+              {
+                "updatedDate": 1313982220266,
+                "tld": "com",
+                "status": [
+                  "clientDeleteProhibited",
+                  "clientRenewProhibited",
+                  "clientTransferProhibited",
+                  "clientUpdateProhibited"
+                ],
+                "started": 1347318661361,
+                "registrarName": "GODADDY.COM, LLC",
+                "nameServers": [
+                  "NS1.P16.DYNECT.NET",
+                  "NS2.P16.DYNECT.NET",
+                  "NS3.P16.DYNECT.NET",
+                  "NS4.P16.DYNECT.NET"
+                ],
+                "expiresDate": 1539054220267,
+                "ended": 1363303077253,
+                "domain": "github.com",
+                "createdDate": 1191899020266,
+                "contactEmail": "tom@github.com",
+                "contact": [
+                  {
+                    "type": "registrant",
+                    "street1": "548 4th St",
+                    "state": "California",
+                    "postalCode": "94107",
+                    "organization": "GitHub, Inc.",
+                    "country": "UNITED STATES",
+                    "city": "San Francisco"
+                  },
+                  {
+                    "type": "administrativeContact",
+                    "telephone": "17606720832",
+                    "street2": "Floor 4",
+                    "street1": "589 Howard St.",
+                    "state": "California",
+                    "postalCode": "94105",
+                    "organization": "GitHub, Inc.",
+                    "name": "Werner, Thomas",
+                    "email": "tom@github.com",
+                    "country": "UNITED STATES",
+                    "city": "San Francisco"
+                  },
+                  {
+                    "type": "administrativeContact",
+                    "telephone": "17606720832",
+                    "street2": "Floor 4",
+                    "street1": "589 Howard St.",
+                    "state": "California",
+                    "postalCode": "94105",
+                    "organization": "GitHub, Inc.",
+                    "name": "Werner, Thomas",
+                    "email": "tom@github.com",
+                    "country": "UNITED STATES",
+                    "city": "San Francisco"
+                  },
+                  {
+                    "type": "technicalContact",
+                    "telephone": "17606720832",
+                    "street2": "Floor 4",
+                    "street1": "589 Howard St.",
+                    "state": "California",
+                    "postalCode": "94105",
+                    "organization": "GitHub, Inc.",
+                    "name": "Werner, Thomas",
+                    "email": "tom@github.com",
+                    "country": "UNITED STATES",
+                    "city": "San Francisco"
+                  }
+                ]
+              }
+            ],
+            "count": 19
+          },
+          "endpoint": "/v1/history/github.com/whois/"
+        }
+    http_version: 
+  recorded_at: Wed, 31 Oct 2018 23:06:52 GMT
+recorded_with: VCR 4.0.0

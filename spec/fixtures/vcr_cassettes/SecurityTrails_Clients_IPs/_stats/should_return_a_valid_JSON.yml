@@ -1,0 +1,134 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.securitytrails.com/v1/ips/stats?apikey=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"query":"ptr_part = ''amazon.com''"}'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.securitytrails.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 31 Oct 2018 23:07:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1388'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-Second:
+      - '2'
+      X-Ratelimit-Remaining-Second:
+      - '1'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - l3k88jfhnr4628esrn8spdruuc2vjhof
+      X-Kong-Upstream-Latency:
+      - '20'
+      X-Kong-Proxy-Latency:
+      - '2'
+      Via:
+      - kong/0.11.2
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "top_ptr_patterns": [
+            {
+              "key": "#-#.amazon.com",
+              "count": 6787
+            },
+            {
+              "key": "#-#-#-#.amazon.com",
+              "count": 3254
+            },
+            {
+              "key": "smtp-out-#-#.amazon.com",
+              "count": 662
+            },
+            {
+              "key": "freeip.amazon.com",
+              "count": 220
+            },
+            {
+              "key": "ns-#.amazon.com",
+              "count": 47
+            },
+            {
+              "key": "www.amazon.com",
+              "count": 44
+            },
+            {
+              "key": "lux#-br-dcr-r#-ae#.amazon.com",
+              "count": 36
+            },
+            {
+              "key": "email#.amazon.com",
+              "count": 19
+            },
+            {
+              "key": "mm-retail-out-#.amazon.com",
+              "count": 19
+            },
+            {
+              "key": "s#-console-us-standard.console.aws.amazon.com",
+              "count": 19
+            },
+            {
+              "key": "lux#-br-agg-r#-ae#.amazon.com",
+              "count": 18
+            },
+            {
+              "key": "mm-notify-out-#-#.amazon.com",
+              "count": 17
+            },
+            {
+              "key": "sg-console-us-standard.console.aws.amazon.com",
+              "count": 15
+            },
+            {
+              "key": "mm-notify-out-#.amazon.com",
+              "count": 13
+            },
+            {
+              "key": "mm-retail-out-#-#.amazon.com",
+              "count": 13
+            }
+          ],
+          "ports": [
+            {
+              "key": 443,
+              "count": 246
+            },
+            {
+              "key": 80,
+              "count": 79
+            },
+            {
+              "key": 22,
+              "count": 5
+            },
+            {
+              "key": 21,
+              "count": 2
+            }
+          ],
+          "total": 11899,
+          "endpoint": "/v1/ips/stats"
+        }
+    http_version: 
+  recorded_at: Wed, 31 Oct 2018 23:07:34 GMT
+recorded_with: VCR 4.0.0

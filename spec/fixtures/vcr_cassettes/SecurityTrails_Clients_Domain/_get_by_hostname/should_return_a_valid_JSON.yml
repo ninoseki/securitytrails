@@ -1,0 +1,182 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.securitytrails.com/v1/domain/github.com?apikey=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.securitytrails.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 31 Oct 2018 13:10:15 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '3637'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-Second:
+      - '2'
+      X-Ratelimit-Remaining-Second:
+      - '1'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - usirin7q3ppo8fgqqcinlhq4a8glhu47
+      X-Kong-Upstream-Latency:
+      - '418'
+      X-Kong-Proxy-Latency:
+      - '1'
+      Via:
+      - kong/0.11.2
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "hostname": "github.com",
+          "endpoint": "/v1/domain/github.com",
+          "current_dns": {
+            "txt": {
+              "values": [
+                {
+                  "value": "v=spf1 ip4:192.30.252.0/22 ip4:208.74.204.0/22 ip4:46.19.168.0/23 include:_spf.google.com include:esp.github.com include:_spf.createsend.com include:mail.zendesk.com include:servers.mcsv.net ~all"
+                },
+                {
+                  "value": "docusign=087098e3-3d46-47b7-9b4e-8a23028154cd"
+                },
+                {
+                  "value": "MS=ms44452932"
+                },
+                {
+                  "value": "MS=6BF03E6AF5CB689E315FB6199603BABF2C88D805"
+                }
+              ],
+              "first_seen": "2018-10-19"
+            },
+            "soa": {
+              "values": [
+                {
+                  "ttl": 3600,
+                  "email_count": 38,
+                  "email": "hostmaster.github.com"
+                }
+              ],
+              "first_seen": "2018-10-31"
+            },
+            "ns": {
+              "values": [
+                {
+                  "nameserver_organization": "Dynamic Network Services, Inc.",
+                  "nameserver_count": 6770,
+                  "nameserver": "ns4.p16.dynect.net"
+                },
+                {
+                  "nameserver_organization": "Dynamic Network Services, Inc.",
+                  "nameserver_count": 6758,
+                  "nameserver": "ns3.p16.dynect.net"
+                },
+                {
+                  "nameserver_organization": "Dynamic Network Services, Inc.",
+                  "nameserver_count": 6768,
+                  "nameserver": "ns2.p16.dynect.net"
+                },
+                {
+                  "nameserver_organization": "Dynamic Network Services, Inc.",
+                  "nameserver_count": 6767,
+                  "nameserver": "ns1.p16.dynect.net"
+                },
+                {
+                  "nameserver_organization": "Amazon.com, Inc.",
+                  "nameserver_count": 3662,
+                  "nameserver": "ns-520.awsdns-01.net"
+                },
+                {
+                  "nameserver_organization": "Amazon.com, Inc.",
+                  "nameserver_count": 3590,
+                  "nameserver": "ns-421.awsdns-52.com"
+                },
+                {
+                  "nameserver_organization": "Amazon.com, Inc.",
+                  "nameserver_count": 3804,
+                  "nameserver": "ns-1707.awsdns-21.co.uk"
+                },
+                {
+                  "nameserver_organization": "Amazon.com, Inc.",
+                  "nameserver_count": 3579,
+                  "nameserver": "ns-1283.awsdns-32.org"
+                }
+              ],
+              "first_seen": "2017-06-27"
+            },
+            "mx": {
+              "values": [
+                {
+                  "priority": 10,
+                  "hostname_organization": "Google Inc.",
+                  "hostname_count": 3701287,
+                  "hostname": "alt4.aspmx.l.google.com"
+                },
+                {
+                  "priority": 10,
+                  "hostname_organization": "Google Inc.",
+                  "hostname_count": 3772848,
+                  "hostname": "alt3.aspmx.l.google.com"
+                },
+                {
+                  "priority": 5,
+                  "hostname_organization": "Google Inc.",
+                  "hostname_count": 9627970,
+                  "hostname": "alt2.aspmx.l.google.com"
+                },
+                {
+                  "priority": 5,
+                  "hostname_organization": "Google Inc.",
+                  "hostname_count": 9711238,
+                  "hostname": "alt1.aspmx.l.google.com"
+                },
+                {
+                  "priority": 1,
+                  "hostname_organization": "Google Inc.",
+                  "hostname_count": 9974398,
+                  "hostname": "aspmx.l.google.com"
+                }
+              ],
+              "first_seen": "2017-05-26"
+            },
+            "aaaa": {},
+            "a": {
+              "values": [
+                {
+                  "ip_organization": "GitHub, Inc.",
+                  "ip_count": 99,
+                  "ip": "192.30.253.113",
+                  "h": null
+                },
+                {
+                  "ip_organization": "GitHub, Inc.",
+                  "ip_count": 89,
+                  "ip": "192.30.253.112",
+                  "h": null
+                }
+              ],
+              "first_seen": "2018-09-12"
+            }
+          },
+          "alexa_rank": 57
+        }
+    http_version: 
+  recorded_at: Wed, 31 Oct 2018 13:10:15 GMT
+recorded_with: VCR 4.0.0

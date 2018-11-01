@@ -1,0 +1,187 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.securitytrails.com/v1/ips/list?apikey=<API_KEY>
+    body:
+      encoding: UTF-8
+      string: '{"query":"ptr_part = ''ns1''"}'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.securitytrails.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 31 Oct 2018 23:06:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2045'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-Second:
+      - '2'
+      X-Ratelimit-Remaining-Second:
+      - '1'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - tj7a5ujtgrrgrqjkrto2dc2ghb2b3ddg
+      X-Kong-Upstream-Latency:
+      - '53'
+      X-Kong-Proxy-Latency:
+      - '1'
+      Via:
+      - kong/0.11.2
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "records": [
+            {
+              "ptr": "ns1",
+              "ip": "12.165.101.4"
+            },
+            {
+              "ptr": "ns1",
+              "ip": "72.162.200.12"
+            },
+            {
+              "ptr": "ns1",
+              "ip": "78.100.32.11"
+            },
+            {
+              "ptr": "ns1",
+              "ip": "80.237.95.2"
+            },
+            {
+              "ptr": "ns1",
+              "ip": "91.186.12.198"
+            },
+            {
+              "ptr": "ns1.ns1",
+              "ip": "92.38.161.19"
+            },
+            {
+              "ptr": "ns1",
+              "ip": "94.102.220.179"
+            },
+            {
+              "ptr": "ns1",
+              "ports": [
+                80,
+                22
+              ],
+              "ip": "103.79.78.121"
+            },
+            {
+              "ptr": "ns1",
+              "ip": "107.173.27.251"
+            },
+            {
+              "ptr": "ns1",
+              "ip": "109.73.164.63"
+            },
+            {
+              "ptr": "ns1",
+              "ports": [
+                22
+              ],
+              "ip": "138.128.164.19"
+            },
+            {
+              "ptr": "ns1",
+              "ports": [
+                21,
+                22,
+                80,
+                443
+              ],
+              "ip": "138.128.168.3"
+            },
+            {
+              "ptr": "sanrachana.in.ns1",
+              "ports": [
+                80,
+                22
+              ],
+              "ip": "139.59.34.223"
+            },
+            {
+              "ptr": "vultr.ns1",
+              "ports": [
+                21,
+                22
+              ],
+              "ip": "144.202.114.77"
+            },
+            {
+              "ptr": "ns1",
+              "ip": "162.252.241.223"
+            },
+            {
+              "ptr": "ns1",
+              "ip": "169.239.219.110"
+            },
+            {
+              "ptr": "ns1",
+              "ports": [
+                80,
+                22
+              ],
+              "ip": "199.193.249.197"
+            },
+            {
+              "ptr": "ns1",
+              "ip": "200.20.0.18"
+            },
+            {
+              "ptr": "ns1",
+              "ip": "203.92.5.101"
+            },
+            {
+              "ptr": "ns1",
+              "ip": "204.118.135.10"
+            },
+            {
+              "ptr": "ns1",
+              "ip": "205.234.169.125"
+            },
+            {
+              "ptr": "ns1",
+              "ip": "207.159.128.240"
+            },
+            {
+              "ptr": "ns1",
+              "ip": "209.141.54.253"
+            },
+            {
+              "ptr": "ns1",
+              "ip": "213.161.157.118"
+            },
+            {
+              "ptr": "ns1",
+              "ip": "216.122.16.253"
+            }
+          ],
+          "record_count": 25,
+          "meta": {
+            "total_pages": 1,
+            "query": "ptr_part = 'ns1'",
+            "page": 1,
+            "max_page": 1
+          },
+          "endpoint": "/v1/ips/list"
+        }
+    http_version: 
+  recorded_at: Wed, 31 Oct 2018 23:06:25 GMT
+recorded_with: VCR 4.0.0

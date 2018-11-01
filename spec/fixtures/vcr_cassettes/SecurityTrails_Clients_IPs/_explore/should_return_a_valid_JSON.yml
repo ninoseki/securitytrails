@@ -1,0 +1,114 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.securitytrails.com/v1/ips/nearby/8.8.8.8?apikey=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.securitytrails.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 31 Oct 2018 23:06:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '991'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-Second:
+      - '2'
+      X-Ratelimit-Remaining-Second:
+      - '1'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d7q03op5u9gmbq9ulfpoo7r4c78799l7
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "endpoint": "/v1/ips/nearby/8.8.8.8",
+          "blocks": [
+            {
+              "sites": 2,
+              "ip": "8.8.8.0/32"
+            },
+            {
+              "sites": 11,
+              "ip": "8.8.8.1/32"
+            },
+            {
+              "sites": 3,
+              "ip": "8.8.8.2/32"
+            },
+            {
+              "sites": 2,
+              "ip": "8.8.8.3/32"
+            },
+            {
+              "sites": 9,
+              "ip": "8.8.8.4/32"
+            },
+            {
+              "sites": 1,
+              "ip": "8.8.8.5/32"
+            },
+            {
+              "sites": 2,
+              "ip": "8.8.8.6/32"
+            },
+            {
+              "sites": 4,
+              "ip": "8.8.8.7/32"
+            },
+            {
+              "sites": 15557,
+              "ip": "8.8.8.8/32",
+              "current": true
+            },
+            {
+              "sites": 18,
+              "ip": "8.8.8.9/32"
+            },
+            {
+              "sites": 2,
+              "ip": "8.8.8.10/32"
+            },
+            {
+              "sites": 0,
+              "ip": "8.8.8.11/32"
+            },
+            {
+              "sites": 0,
+              "ip": "8.8.8.12/32"
+            },
+            {
+              "sites": 0,
+              "ip": "8.8.8.13/32"
+            },
+            {
+              "sites": 0,
+              "ip": "8.8.8.14/32"
+            },
+            {
+              "sites": 0,
+              "ip": "8.8.8.15/32"
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Wed, 31 Oct 2018 23:06:12 GMT
+recorded_with: VCR 4.0.0
