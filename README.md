@@ -79,7 +79,7 @@ puts res.current_dns.a.first_seen # => "2018-09-12"
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/securitytrails.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ninoseki/securitytrails.
 
 ## License
 
