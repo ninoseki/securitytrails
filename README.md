@@ -67,7 +67,7 @@ api.ips.search("ptr_part = 'ns1'")
 api.ips.stats("ptr_part = 'amazon.com'")
 ```
 
-All the API response (JSON / Hash) is wrapped by [Hashie::Mash](https://github.com/intridea/hashie#mash).
+All the API response (JSON / Hash) is wrapped by [OpenStruct](https://github.com/ruby/ostruct).
 
 It means you can access to a response through a property-like syntax.
 
@@ -75,16 +75,6 @@ It means you can access to a response through a property-like syntax.
 res = api.domain.get_by_hostname("github.com")
 puts res.hostname # => "github.com"
 puts res.current_dns.a.first_seen # => "2018-09-12"
-```
-
-But because of the limitations of Hashie::Mash, you should use `#[]` method for accessing `key` and `count` attributes.
-
-```ruby
-res = api.ips.stats("ptr_part = 'amazon.com'")
-
-frist_pattern = res.top_ptr_patterns.first
-puts frist_pattern["key"]
-puts frist_pattern["count"]
 ```
 
 ## Contributing

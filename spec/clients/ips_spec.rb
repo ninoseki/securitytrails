@@ -22,8 +22,8 @@ RSpec.describe SecurityTrails::Clients::IPs, :vcr do
       res = subject.ips.stats("ptr_part = 'amazon.com'")
       expect(res.top_ptr_patterns).to be_an(Array)
       frist_pattern = res.top_ptr_patterns.first
-      expect(frist_pattern["key"]).to be_a(String)
-      expect(frist_pattern["count"]).to be_a(Integer)
+      expect(frist_pattern.key).to be_a(String)
+      expect(frist_pattern.count).to be_a(Integer)
     end
   end
 end

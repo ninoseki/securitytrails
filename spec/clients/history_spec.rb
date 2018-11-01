@@ -7,6 +7,8 @@ RSpec.describe SecurityTrails::Clients::History, :vcr do
     it "should return a valid JSON" do
       res = subject.history.get_dns_history("github.com", "a")
       expect(res.records).to be_an(Array)
+      first = res.records.first
+      expect(first.values.first.ip).to be_a(String)
     end
     context "when given an invalid type" do
       it "should raise an ArgumentError" do
