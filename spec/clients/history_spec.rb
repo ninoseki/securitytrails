@@ -5,8 +5,8 @@ RSpec.describe SecurityTrails::Clients::History, :vcr do
 
   describe "#get_dns_history" do
     it "should return a valid JSON" do
-      json = subject.history.get_dns_history("github.com", "a")
-      expect(json["records"]).to be_an(Array)
+      res = subject.history.get_dns_history("github.com", "a")
+      expect(res.records).to be_an(Array)
     end
     context "when given an invalid type" do
       it "should raise an ArgumentError" do
@@ -17,8 +17,8 @@ RSpec.describe SecurityTrails::Clients::History, :vcr do
 
   describe "#get_all_dns_history" do
     it "should return a valid JSON" do
-      json = subject.history.get_all_dns_history("github.com", "a")
-      records = json["records"]
+      res = subject.history.get_all_dns_history("github.com", "a")
+      records = res.records
       expect(records).to be_an(Array)
       expect(records.length).to eq(records.uniq.length)
     end
@@ -26,8 +26,8 @@ RSpec.describe SecurityTrails::Clients::History, :vcr do
 
   describe "#get_whois_history" do
     it "should return a valid JSON" do
-      json = subject.history.get_whois_history("github.com")
-      expect(json["result"]["items"]).to be_an(Array)
+      res = subject.history.get_whois_history("github.com")
+      expect(res.result.items).to be_an(Array)
     end
   end
 end

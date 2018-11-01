@@ -5,23 +5,23 @@ RSpec.describe SecurityTrails::Clients::Domains, :vcr do
 
   describe "#search" do
     it "should return a valid JSON" do
-      json = subject.domains.search(
+      res = subject.domains.search(
         filter: {
           ipv4: "1.1.1.1"
         }
       )
-      expect(json["records"]).to be_an(Array)
+      expect(res.records).to be_an(Array)
     end
   end
 
   describe "#stats" do
     it "should return a valid JSON" do
-      json = subject.domains.stats(
+      res = subject.domains.stats(
         filter: {
           ipv4: "1.1.1.1"
         }
       )
-      expect(json["tld_count"]).to be_an(Integer)
+      expect(res.tld_count).to be_an(Integer)
     end
   end
 end
