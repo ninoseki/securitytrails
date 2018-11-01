@@ -39,7 +39,7 @@ module SecurityTrails
       Net::HTTP.start(HOST, 443, https_options) do |http|
         response = http.request(req)
         if response.code == '200'
-          yield JSON.parse(response.body)
+          yield Response.new(JSON.parse(response.body))
         else
           raise(Error, "unsupported response code returned: #{response.code}")
         end
