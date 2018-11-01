@@ -1,5 +1,6 @@
 # SecurityTrails
 
+[![Gem Version](https://badge.fury.io/rb/securitytrails.svg)](https://badge.fury.io/rb/securitytrails)
 [![Build Status](https://travis-ci.org/ninoseki/securitytrails.svg?branch=master)](https://travis-ci.org/ninoseki/securitytrails)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9637f5ed2b8943c28d9d61db778330fb)](https://www.codacy.com/app/ninoseki/securitytrails)
 [![Coverage Status](https://coveralls.io/repos/github/ninoseki/securitytrails/badge.svg?branch=master)](https://coveralls.io/github/ninoseki/securitytrails?branch=master)
@@ -78,7 +79,7 @@ puts res.current_dns.a.first_seen # => "2018-09-12"
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/securitytrails.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ninoseki/securitytrails.
 
 ## License
 
