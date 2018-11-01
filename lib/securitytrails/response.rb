@@ -1,9 +1,7 @@
 # frozen_string_literal: true
 
-require "hashie"
+require "ostruct"
 
 module SecurityTrails
-  class Response < Hashie::Mash
-    disable_warnings
-  end
+  class Response < OpenStruct; end
 end
