@@ -77,6 +77,16 @@ puts res.hostname # => "github.com"
 puts res.current_dns.a.first_seen # => "2018-09-12"
 ```
 
+But because of the limitations of Hashie::Mash, you should use `#[]` method for accessing `key` and `count` attributes.
+
+```ruby
+res = api.ips.stats("ptr_part = 'amazon.com'")
+
+frist_pattern = res.top_ptr_patterns.first
+puts frist_pattern["key"]
+puts frist_pattern["count"]
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/ninoseki/securitytrails.
