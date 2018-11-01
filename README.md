@@ -66,6 +66,16 @@ api.ips.search("ptr_part = 'ns1'")
 api.ips.stats("ptr_part = 'amazon.com'")
 ```
 
+All the API response (JSON / Hash) is wrapped by [Hashie::Mash](https://github.com/intridea/hashie#mash).
+
+It means you can access to a response through a property-like syntax.
+
+```ruby
+res = api.domain.get_by_hostname("github.com")
+puts res.hostname # => "github.com"
+puts res.current_dns.a.first_seen # => "2018-09-12"
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/securitytrails.
