@@ -10,6 +10,7 @@ module SecurityTrails
     HOST = "api.securitytrails.com"
     VERSION = 1
     URL = "https://#{HOST}/v#{VERSION}"
+    API_KEY_HEADER = "apikey"
 
     def initialize(api_key)
       @api_key = api_key
@@ -48,19 +49,19 @@ module SecurityTrails
 
     def get(path, params = {}, &block)
       url = url_for(path)
-      params["apikey"] = api_key
       url.query = URI.encode_www_form(params)
 
       get = Net::HTTP::Get.new(url)
+      get.add_field(API_KEY_HEADER, api_key)
       request(get, &block)
     end
 
     def post(path, params = {}, &block)
       url = url_for(path)
-      url.query = "apikey=#{api_key}"
 
       post = Net::HTTP::Post.new(url)
       post.body = params.is_a?(Hash) ? params.to_json : params.to_s
+      post.add_field(API_KEY_HEADER, api_key)
       request(post, &block)
     end
   end

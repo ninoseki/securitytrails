@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.securitytrails.com/v1/domain/github.com?apikey=<API_KEY>
+    uri: https://api.securitytrails.com/v1/domain/github.com
     body:
       encoding: US-ASCII
       string: ''
@@ -15,17 +15,19 @@ http_interactions:
       - Ruby
       Host:
       - api.securitytrails.com
+      Apikey:
+      - "<API_KEY>"
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 31 Oct 2018 13:10:15 GMT
+      - Sat, 03 Nov 2018 13:06:02 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '3637'
+      - '3650'
       Connection:
       - keep-alive
       X-Ratelimit-Limit-Second:
@@ -35,13 +37,7 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - usirin7q3ppo8fgqqcinlhq4a8glhu47
-      X-Kong-Upstream-Latency:
-      - '418'
-      X-Kong-Proxy-Latency:
-      - '1'
-      Via:
-      - kong/0.11.2
+      - cktmvt2q7sn2r701qncpnkrc4g3c11lp
     body:
       encoding: UTF-8
       string: |-
@@ -69,43 +65,43 @@ http_interactions:
             "soa": {
               "values": [
                 {
-                  "ttl": 3600,
-                  "email_count": 38,
-                  "email": "hostmaster.github.com"
+                  "ttl": 7200,
+                  "email_count": 1906424,
+                  "email": "awsdns-hostmaster.amazon.com"
                 }
               ],
-              "first_seen": "2018-10-31"
+              "first_seen": "2018-11-01"
             },
             "ns": {
               "values": [
                 {
                   "nameserver_organization": "Dynamic Network Services, Inc.",
-                  "nameserver_count": 6770,
+                  "nameserver_count": 6752,
                   "nameserver": "ns4.p16.dynect.net"
                 },
                 {
                   "nameserver_organization": "Dynamic Network Services, Inc.",
-                  "nameserver_count": 6758,
+                  "nameserver_count": 6740,
                   "nameserver": "ns3.p16.dynect.net"
                 },
                 {
                   "nameserver_organization": "Dynamic Network Services, Inc.",
-                  "nameserver_count": 6768,
+                  "nameserver_count": 6750,
                   "nameserver": "ns2.p16.dynect.net"
                 },
                 {
                   "nameserver_organization": "Dynamic Network Services, Inc.",
-                  "nameserver_count": 6767,
+                  "nameserver_count": 6749,
                   "nameserver": "ns1.p16.dynect.net"
                 },
                 {
                   "nameserver_organization": "Amazon.com, Inc.",
-                  "nameserver_count": 3662,
+                  "nameserver_count": 3674,
                   "nameserver": "ns-520.awsdns-01.net"
                 },
                 {
                   "nameserver_organization": "Amazon.com, Inc.",
-                  "nameserver_count": 3590,
+                  "nameserver_count": 3586,
                   "nameserver": "ns-421.awsdns-52.com"
                 },
                 {
@@ -115,7 +111,7 @@ http_interactions:
                 },
                 {
                   "nameserver_organization": "Amazon.com, Inc.",
-                  "nameserver_count": 3579,
+                  "nameserver_count": 3592,
                   "nameserver": "ns-1283.awsdns-32.org"
                 }
               ],
@@ -126,31 +122,31 @@ http_interactions:
                 {
                   "priority": 10,
                   "hostname_organization": "Google Inc.",
-                  "hostname_count": 3701287,
+                  "hostname_count": 3713718,
                   "hostname": "alt4.aspmx.l.google.com"
                 },
                 {
                   "priority": 10,
                   "hostname_organization": "Google Inc.",
-                  "hostname_count": 3772848,
+                  "hostname_count": 3785105,
                   "hostname": "alt3.aspmx.l.google.com"
                 },
                 {
                   "priority": 5,
                   "hostname_organization": "Google Inc.",
-                  "hostname_count": 9627970,
+                  "hostname_count": 9639752,
                   "hostname": "alt2.aspmx.l.google.com"
                 },
                 {
                   "priority": 5,
                   "hostname_organization": "Google Inc.",
-                  "hostname_count": 9711238,
+                  "hostname_count": 9723037,
                   "hostname": "alt1.aspmx.l.google.com"
                 },
                 {
                   "priority": 1,
                   "hostname_organization": "Google Inc.",
-                  "hostname_count": 9974398,
+                  "hostname_count": 9986305,
                   "hostname": "aspmx.l.google.com"
                 }
               ],
@@ -161,13 +157,13 @@ http_interactions:
               "values": [
                 {
                   "ip_organization": "GitHub, Inc.",
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113",
                   "h": null
                 },
                 {
                   "ip_organization": "GitHub, Inc.",
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112",
                   "h": null
                 }
@@ -178,5 +174,5 @@ http_interactions:
           "alexa_rank": 57
         }
     http_version: 
-  recorded_at: Wed, 31 Oct 2018 13:10:15 GMT
+  recorded_at: Sat, 03 Nov 2018 13:06:02 GMT
 recorded_with: VCR 4.0.0

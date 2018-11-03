@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.securitytrails.com/v1/history/github.com/dns/a?apikey=<API_KEY>&page=1
+    uri: https://api.securitytrails.com/v1/history/github.com/dns/a?page=1
     body:
       encoding: US-ASCII
       string: ''
@@ -15,17 +15,19 @@ http_interactions:
       - Ruby
       Host:
       - api.securitytrails.com
+      Apikey:
+      - "<API_KEY>"
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 31 Oct 2018 23:06:42 GMT
+      - Sat, 03 Nov 2018 13:05:45 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '33162'
+      - '33211'
       Connection:
       - keep-alive
       X-Ratelimit-Limit-Second:
@@ -35,11 +37,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e6453nkbk3el5r0dto1l9agbe4kfddck
+      - o9vjeph5flpsshdf43ib8jnqj1p3ctl5
       X-Kong-Upstream-Latency:
-      - '345'
+      - '208'
       X-Kong-Proxy-Latency:
-      - '1'
+      - '25'
       Via:
       - kong/0.11.2
     body:
@@ -51,11 +53,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -73,7 +75,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -87,11 +89,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -109,7 +111,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -123,11 +125,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -145,7 +147,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -159,11 +161,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -181,7 +183,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -195,11 +197,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -217,7 +219,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -231,11 +233,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -253,7 +255,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -267,11 +269,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -289,7 +291,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -303,11 +305,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -325,7 +327,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -339,11 +341,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -361,7 +363,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -375,11 +377,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -397,7 +399,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -411,11 +413,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -433,7 +435,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -447,11 +449,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -469,7 +471,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -483,11 +485,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -505,7 +507,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -519,11 +521,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -541,7 +543,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -555,11 +557,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -577,7 +579,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -591,11 +593,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -613,7 +615,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -627,11 +629,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -649,7 +651,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -663,11 +665,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -685,7 +687,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -699,11 +701,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -721,7 +723,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -735,11 +737,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -757,7 +759,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -771,11 +773,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -793,7 +795,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -807,11 +809,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -829,7 +831,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -843,11 +845,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -865,7 +867,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -879,11 +881,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -901,7 +903,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -915,11 +917,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -937,7 +939,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -951,11 +953,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -973,7 +975,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -987,11 +989,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1009,7 +1011,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1023,11 +1025,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1045,7 +1047,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1059,11 +1061,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1081,7 +1083,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1095,11 +1097,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1117,7 +1119,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1131,11 +1133,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1153,7 +1155,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1167,11 +1169,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1189,7 +1191,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1203,11 +1205,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1225,7 +1227,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1239,11 +1241,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1261,7 +1263,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1275,11 +1277,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1297,7 +1299,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1311,11 +1313,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1333,7 +1335,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1347,11 +1349,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1369,7 +1371,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1383,11 +1385,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1405,7 +1407,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1419,11 +1421,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1441,7 +1443,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1455,11 +1457,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1477,7 +1479,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1491,11 +1493,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1513,7 +1515,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1527,11 +1529,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1549,7 +1551,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1563,11 +1565,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1585,7 +1587,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1599,11 +1601,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1621,7 +1623,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1635,11 +1637,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1657,7 +1659,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1671,11 +1673,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1693,7 +1695,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1707,11 +1709,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1729,7 +1731,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1743,11 +1745,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1765,7 +1767,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1779,11 +1781,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1799,10 +1801,10 @@ http_interactions:
           "endpoint": "/v1/history/github.com/dns/a"
         }
     http_version: 
-  recorded_at: Wed, 31 Oct 2018 23:06:43 GMT
+  recorded_at: Sat, 03 Nov 2018 13:05:45 GMT
 - request:
     method: get
-    uri: https://api.securitytrails.com/v1/history/github.com/dns/a?apikey=<API_KEY>&page=2
+    uri: https://api.securitytrails.com/v1/history/github.com/dns/a?page=2
     body:
       encoding: US-ASCII
       string: ''
@@ -1815,17 +1817,19 @@ http_interactions:
       - Ruby
       Host:
       - api.securitytrails.com
+      Apikey:
+      - "<API_KEY>"
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 31 Oct 2018 23:06:43 GMT
+      - Sat, 03 Nov 2018 13:05:49 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '22253'
+      - '22289'
       Connection:
       - keep-alive
       X-Ratelimit-Limit-Second:
@@ -1835,11 +1839,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 0a7of37c2b889tdefe74hpq6cl7qrq5r
+      - 17ucfboiaerj2lrp2efjltd2h8h4krn1
       X-Kong-Upstream-Latency:
-      - '78'
+      - '613'
       X-Kong-Proxy-Latency:
-      - '2'
+      - '1'
       Via:
       - kong/0.11.2
     body:
@@ -1855,7 +1859,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1869,11 +1873,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1891,7 +1895,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1905,11 +1909,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1927,7 +1931,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1941,11 +1945,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1963,7 +1967,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1977,11 +1981,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1999,7 +2003,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -2013,11 +2017,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2035,7 +2039,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -2049,11 +2053,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2071,7 +2075,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -2085,11 +2089,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2107,7 +2111,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -2121,11 +2125,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2143,7 +2147,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -2157,11 +2161,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2179,7 +2183,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -2193,11 +2197,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2215,7 +2219,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -2229,11 +2233,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2251,7 +2255,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -2265,11 +2269,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2287,7 +2291,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -2301,11 +2305,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2323,7 +2327,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -2337,11 +2341,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2359,7 +2363,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -2373,11 +2377,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2395,7 +2399,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -2409,11 +2413,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2431,7 +2435,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -2445,11 +2449,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2467,7 +2471,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -2481,11 +2485,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2503,7 +2507,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -2517,11 +2521,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2539,7 +2543,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -2553,11 +2557,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2575,7 +2579,7 @@ http_interactions:
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 31,
+                  "ip_count": 32,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -2589,11 +2593,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2607,7 +2611,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -2621,7 +2625,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2635,7 +2639,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -2649,7 +2653,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2663,7 +2667,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -2677,7 +2681,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2691,7 +2695,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -2705,7 +2709,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2719,7 +2723,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -2733,7 +2737,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2747,7 +2751,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -2761,7 +2765,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2775,7 +2779,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -2789,7 +2793,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2803,7 +2807,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -2817,7 +2821,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2831,7 +2835,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -2845,7 +2849,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2859,7 +2863,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -2873,7 +2877,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2887,7 +2891,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -2901,7 +2905,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2915,7 +2919,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -2929,7 +2933,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2943,7 +2947,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -2957,7 +2961,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2971,7 +2975,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -2985,7 +2989,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -2999,7 +3003,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -3013,7 +3017,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -3029,10 +3033,10 @@ http_interactions:
           "endpoint": "/v1/history/github.com/dns/a"
         }
     http_version: 
-  recorded_at: Wed, 31 Oct 2018 23:06:44 GMT
+  recorded_at: Sat, 03 Nov 2018 13:05:49 GMT
 - request:
     method: get
-    uri: https://api.securitytrails.com/v1/history/github.com/dns/a?apikey=<API_KEY>&page=3
+    uri: https://api.securitytrails.com/v1/history/github.com/dns/a?page=3
     body:
       encoding: US-ASCII
       string: ''
@@ -3045,17 +3049,19 @@ http_interactions:
       - Ruby
       Host:
       - api.securitytrails.com
+      Apikey:
+      - "<API_KEY>"
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 31 Oct 2018 23:06:45 GMT
+      - Sat, 03 Nov 2018 13:05:51 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '26682'
+      - '26696'
       Connection:
       - keep-alive
       X-Ratelimit-Limit-Second:
@@ -3065,7 +3071,13 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - ksrmc5mcs5fq3im699bsapc15n1h21e0
+      - q5m066d92pbjgua6i8e2cln8flebacv4
+      X-Kong-Upstream-Latency:
+      - '340'
+      X-Kong-Proxy-Latency:
+      - '33'
+      Via:
+      - kong/0.11.2
     body:
       encoding: UTF-8
       string: |-
@@ -3075,7 +3087,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -3089,7 +3101,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -3103,7 +3115,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -3117,7 +3129,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -3131,7 +3143,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -3145,7 +3157,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -3159,7 +3171,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -3173,7 +3185,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -3187,7 +3199,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -3201,7 +3213,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -3215,7 +3227,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -3229,7 +3241,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -3243,7 +3255,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -3257,7 +3269,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -3271,7 +3283,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -3285,7 +3297,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -3299,7 +3311,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -3313,7 +3325,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -3327,7 +3339,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -3341,7 +3353,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -3355,7 +3367,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -3369,7 +3381,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -3383,7 +3395,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -3397,7 +3409,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -3411,7 +3423,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -3425,7 +3437,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -3439,7 +3451,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 99,
+                  "ip_count": 102,
                   "ip": "192.30.253.113"
                 }
               ],
@@ -3453,7 +3465,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 89,
+                  "ip_count": 90,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -4505,10 +4517,10 @@ http_interactions:
           "endpoint": "/v1/history/github.com/dns/a"
         }
     http_version: 
-  recorded_at: Wed, 31 Oct 2018 23:06:45 GMT
+  recorded_at: Sat, 03 Nov 2018 13:05:50 GMT
 - request:
     method: get
-    uri: https://api.securitytrails.com/v1/history/github.com/dns/a?apikey=<API_KEY>&page=4
+    uri: https://api.securitytrails.com/v1/history/github.com/dns/a?page=4
     body:
       encoding: US-ASCII
       string: ''
@@ -4521,13 +4533,15 @@ http_interactions:
       - Ruby
       Host:
       - api.securitytrails.com
+      Apikey:
+      - "<API_KEY>"
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 31 Oct 2018 23:06:46 GMT
+      - Sat, 03 Nov 2018 13:05:52 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -4541,7 +4555,13 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9fvpg7cmopiehpedlbi5u7m8s72eohu4
+      - 86hfharnlusbh2hpr6gtme4nogqbu94c
+      X-Kong-Upstream-Latency:
+      - '71'
+      X-Kong-Proxy-Latency:
+      - '37'
+      Via:
+      - kong/0.11.2
     body:
       encoding: UTF-8
       string: |-
@@ -5148,10 +5168,10 @@ http_interactions:
           "endpoint": "/v1/history/github.com/dns/a"
         }
     http_version: 
-  recorded_at: Wed, 31 Oct 2018 23:06:46 GMT
+  recorded_at: Sat, 03 Nov 2018 13:05:51 GMT
 - request:
     method: get
-    uri: https://api.securitytrails.com/v1/history/github.com/dns/a?apikey=<API_KEY>&page=5
+    uri: https://api.securitytrails.com/v1/history/github.com/dns/a?page=5
     body:
       encoding: US-ASCII
       string: ''
@@ -5164,13 +5184,15 @@ http_interactions:
       - Ruby
       Host:
       - api.securitytrails.com
+      Apikey:
+      - "<API_KEY>"
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 31 Oct 2018 23:06:47 GMT
+      - Sat, 03 Nov 2018 13:05:53 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -5184,11 +5206,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 73ujdtt0sirikatl4ae4iheul5uekb27
+      - i1kkmp7onk80phor4c4allcter9nceof
       X-Kong-Upstream-Latency:
-      - '67'
+      - '185'
       X-Kong-Proxy-Latency:
-      - '2'
+      - '38'
       Via:
       - kong/0.11.2
     body:
@@ -5481,10 +5503,10 @@ http_interactions:
           "endpoint": "/v1/history/github.com/dns/a"
         }
     http_version: 
-  recorded_at: Wed, 31 Oct 2018 23:06:47 GMT
+  recorded_at: Sat, 03 Nov 2018 13:05:52 GMT
 - request:
     method: get
-    uri: https://api.securitytrails.com/v1/history/github.com/dns/a?apikey=<API_KEY>&page=6
+    uri: https://api.securitytrails.com/v1/history/github.com/dns/a?page=6
     body:
       encoding: US-ASCII
       string: ''
@@ -5497,13 +5519,15 @@ http_interactions:
       - Ruby
       Host:
       - api.securitytrails.com
+      Apikey:
+      - "<API_KEY>"
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 31 Oct 2018 23:06:48 GMT
+      - Sat, 03 Nov 2018 13:05:54 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -5517,7 +5541,13 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - js8or00951qqh496lguc582b96a1d42v
+      - 604u88d9vhtubn4tld1u20jgof20fbiu
+      X-Kong-Upstream-Latency:
+      - '103'
+      X-Kong-Proxy-Latency:
+      - '1'
+      Via:
+      - kong/0.11.2
     body:
       encoding: UTF-8
       string: |-
@@ -5543,10 +5573,10 @@ http_interactions:
           "endpoint": "/v1/history/github.com/dns/a"
         }
     http_version: 
-  recorded_at: Wed, 31 Oct 2018 23:06:48 GMT
+  recorded_at: Sat, 03 Nov 2018 13:05:53 GMT
 - request:
     method: get
-    uri: https://api.securitytrails.com/v1/history/github.com/dns/a?apikey=<API_KEY>&page=7
+    uri: https://api.securitytrails.com/v1/history/github.com/dns/a?page=7
     body:
       encoding: US-ASCII
       string: ''
@@ -5559,13 +5589,15 @@ http_interactions:
       - Ruby
       Host:
       - api.securitytrails.com
+      Apikey:
+      - "<API_KEY>"
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 31 Oct 2018 23:06:49 GMT
+      - Sat, 03 Nov 2018 13:05:55 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -5579,11 +5611,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - r2ntg2jk9o9memnvv8q7egsii52cghus
+      - 588idpk58egp0l4446shqs0kpf3obotv
       X-Kong-Upstream-Latency:
-      - '202'
+      - '100'
       X-Kong-Proxy-Latency:
-      - '1'
+      - '2'
       Via:
       - kong/0.11.2
     body:
@@ -5625,10 +5657,10 @@ http_interactions:
           "endpoint": "/v1/history/github.com/dns/a"
         }
     http_version: 
-  recorded_at: Wed, 31 Oct 2018 23:06:49 GMT
+  recorded_at: Sat, 03 Nov 2018 13:05:54 GMT
 - request:
     method: get
-    uri: https://api.securitytrails.com/v1/history/github.com/dns/a?apikey=<API_KEY>&page=8
+    uri: https://api.securitytrails.com/v1/history/github.com/dns/a?page=8
     body:
       encoding: US-ASCII
       string: ''
@@ -5641,13 +5673,15 @@ http_interactions:
       - Ruby
       Host:
       - api.securitytrails.com
+      Apikey:
+      - "<API_KEY>"
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 31 Oct 2018 23:06:50 GMT
+      - Sat, 03 Nov 2018 13:05:56 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -5657,15 +5691,15 @@ http_interactions:
       X-Ratelimit-Limit-Second:
       - '2'
       X-Ratelimit-Remaining-Second:
-      - '0'
+      - '1'
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - pg2cd5696dn9g0t6t8noejc8l85ufuu5
+      - k8bk25fscfqnuup28bcbsnk7gsvsd4s5
       X-Kong-Upstream-Latency:
-      - '52'
+      - '78'
       X-Kong-Proxy-Latency:
-      - '1'
+      - '34'
       Via:
       - kong/0.11.2
     body:
@@ -5693,5 +5727,5 @@ http_interactions:
           "endpoint": "/v1/history/github.com/dns/a"
         }
     http_version: 
-  recorded_at: Wed, 31 Oct 2018 23:06:50 GMT
+  recorded_at: Sat, 03 Nov 2018 13:05:55 GMT
 recorded_with: VCR 4.0.0

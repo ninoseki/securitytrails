@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.securitytrails.com/v1/domain/github.com/tags?apikey=<API_KEY>
+    uri: https://api.securitytrails.com/v1/domain/github.com/tags
     body:
       encoding: US-ASCII
       string: ''
@@ -15,13 +15,15 @@ http_interactions:
       - Ruby
       Host:
       - api.securitytrails.com
+      Apikey:
+      - "<API_KEY>"
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 31 Oct 2018 13:10:12 GMT
+      - Sat, 03 Nov 2018 13:06:08 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -35,7 +37,13 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - ons0rjeehj1p6iq8p86rmosrcki2gd05
+      - v635bd3bf70vpqosom8ognk8j0sesf21
+      X-Kong-Upstream-Latency:
+      - '21'
+      X-Kong-Proxy-Latency:
+      - '2'
+      Via:
+      - kong/0.11.2
     body:
       encoding: UTF-8
       string: |-
@@ -44,5 +52,5 @@ http_interactions:
           "endpoint": "/v1/domain/github.com/tags"
         }
     http_version: 
-  recorded_at: Wed, 31 Oct 2018 13:10:12 GMT
+  recorded_at: Sat, 03 Nov 2018 13:06:07 GMT
 recorded_with: VCR 4.0.0

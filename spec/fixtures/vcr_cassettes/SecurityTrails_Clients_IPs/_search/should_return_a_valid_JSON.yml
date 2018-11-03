@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://api.securitytrails.com/v1/ips/list?apikey=<API_KEY>
+    uri: https://api.securitytrails.com/v1/ips/list
     body:
       encoding: UTF-8
       string: '{"query":"ptr_part = ''ns1''"}'
@@ -15,13 +15,15 @@ http_interactions:
       - Ruby
       Host:
       - api.securitytrails.com
+      Apikey:
+      - "<API_KEY>"
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 31 Oct 2018 23:06:25 GMT
+      - Sat, 03 Nov 2018 13:06:09 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -35,9 +37,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - tj7a5ujtgrrgrqjkrto2dc2ghb2b3ddg
+      - 01bnfuetgnffd5rfceeeea0sgt4rbfjj
       X-Kong-Upstream-Latency:
-      - '53'
+      - '28'
       X-Kong-Proxy-Latency:
       - '1'
       Via:
@@ -183,5 +185,5 @@ http_interactions:
           "endpoint": "/v1/ips/list"
         }
     http_version: 
-  recorded_at: Wed, 31 Oct 2018 23:06:25 GMT
+  recorded_at: Sat, 03 Nov 2018 13:06:08 GMT
 recorded_with: VCR 4.0.0

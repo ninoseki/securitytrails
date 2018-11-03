@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.securitytrails.com/v1/history/github.com/whois/?apikey=<API_KEY>
+    uri: https://api.securitytrails.com/v1/history/github.com/whois/
     body:
       encoding: US-ASCII
       string: ''
@@ -15,13 +15,15 @@ http_interactions:
       - Ruby
       Host:
       - api.securitytrails.com
+      Apikey:
+      - "<API_KEY>"
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 31 Oct 2018 23:06:51 GMT
+      - Sat, 03 Nov 2018 13:05:57 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -31,15 +33,15 @@ http_interactions:
       X-Ratelimit-Limit-Second:
       - '2'
       X-Ratelimit-Remaining-Second:
-      - '1'
+      - '0'
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - nu9fpvidmiosnuu51akoc4qo58qq7r77
+      - i2ooiasv0o18t5b0f15coeet8u9sco4d
       X-Kong-Upstream-Latency:
-      - '35'
+      - '458'
       X-Kong-Proxy-Latency:
-      - '2'
+      - '1'
       Via:
       - kong/0.11.2
     body:
@@ -347,5 +349,5 @@ http_interactions:
           "endpoint": "/v1/history/github.com/whois/"
         }
     http_version: 
-  recorded_at: Wed, 31 Oct 2018 23:06:52 GMT
+  recorded_at: Sat, 03 Nov 2018 13:05:56 GMT
 recorded_with: VCR 4.0.0

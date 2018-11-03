@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.securitytrails.com/v1/ips/nearby/8.8.8.8?apikey=<API_KEY>
+    uri: https://api.securitytrails.com/v1/ips/nearby/8.8.8.8
     body:
       encoding: US-ASCII
       string: ''
@@ -15,13 +15,15 @@ http_interactions:
       - Ruby
       Host:
       - api.securitytrails.com
+      Apikey:
+      - "<API_KEY>"
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 31 Oct 2018 23:06:12 GMT
+      - Sat, 03 Nov 2018 13:06:15 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -35,7 +37,13 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - d7q03op5u9gmbq9ulfpoo7r4c78799l7
+      - bcc477qmvdiuldand0he3vdk5jdmkp1v
+      X-Kong-Upstream-Latency:
+      - '55'
+      X-Kong-Proxy-Latency:
+      - '16'
+      Via:
+      - kong/0.11.2
     body:
       encoding: UTF-8
       string: |-
@@ -75,7 +83,7 @@ http_interactions:
               "ip": "8.8.8.7/32"
             },
             {
-              "sites": 15557,
+              "sites": 15601,
               "ip": "8.8.8.8/32",
               "current": true
             },
@@ -110,5 +118,5 @@ http_interactions:
           ]
         }
     http_version: 
-  recorded_at: Wed, 31 Oct 2018 23:06:12 GMT
+  recorded_at: Sat, 03 Nov 2018 13:06:14 GMT
 recorded_with: VCR 4.0.0

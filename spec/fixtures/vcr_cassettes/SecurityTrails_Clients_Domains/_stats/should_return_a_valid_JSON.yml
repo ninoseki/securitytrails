@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://api.securitytrails.com/v1/domains/stats?apikey=<API_KEY>
+    uri: https://api.securitytrails.com/v1/domains/stats
     body:
       encoding: UTF-8
       string: '{"filter":{"ipv4":"1.1.1.1"}}'
@@ -15,13 +15,15 @@ http_interactions:
       - Ruby
       Host:
       - api.securitytrails.com
+      Apikey:
+      - "<API_KEY>"
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 31 Oct 2018 13:30:14 GMT
+      - Sat, 03 Nov 2018 13:06:20 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -35,22 +37,16 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - lkqscne5vrb1f81b7nsp2vkgqfgor3rg
-      X-Kong-Upstream-Latency:
-      - '1122'
-      X-Kong-Proxy-Latency:
-      - '1'
-      Via:
-      - kong/0.11.2
+      - 0ighoh0brit487dsc4af53tk4qo3chlp
     body:
       encoding: UTF-8
       string: |-
         {
-          "whois_organization_count": 1917,
+          "whois_organization_count": 1918,
           "top_organizations": [
             {
               "key": "Domains By Proxy, LLC",
-              "count": 1430
+              "count": 1429
             },
             {
               "key": "WhoisGuard, Inc.",
@@ -70,7 +66,7 @@ http_interactions:
             },
             {
               "key": "yaolele",
-              "count": 153
+              "count": 152
             },
             {
               "key": "Xin Ren Pan",
@@ -105,11 +101,11 @@ http_interactions:
               "count": 41
             }
           ],
-          "tld_count": 318,
-          "hostname_count": 26394,
+          "tld_count": 317,
+          "hostname_count": 26276,
           "endpoint": "/v1/domains/stats",
-          "domain_count": 15900
+          "domain_count": 15777
         }
     http_version: 
-  recorded_at: Wed, 31 Oct 2018 13:30:14 GMT
+  recorded_at: Sat, 03 Nov 2018 13:06:19 GMT
 recorded_with: VCR 4.0.0

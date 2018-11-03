@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.securitytrails.com/v1/domain/github.com/subdomains?apikey=<API_KEY>
+    uri: https://api.securitytrails.com/v1/domain/github.com/subdomains
     body:
       encoding: US-ASCII
       string: ''
@@ -15,17 +15,19 @@ http_interactions:
       - Ruby
       Host:
       - api.securitytrails.com
+      Apikey:
+      - "<API_KEY>"
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 31 Oct 2018 13:10:16 GMT
+      - Sat, 03 Nov 2018 13:06:01 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '33246'
+      - '33245'
       Connection:
       - keep-alive
       X-Ratelimit-Limit-Second:
@@ -35,11 +37,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - p9kr8u440cjdjms8d7123ecjc5urej8n
+      - dl7jjaoes667tebphu5et8rvtfkqsu6s
       X-Kong-Upstream-Latency:
-      - '185'
+      - '213'
       X-Kong-Proxy-Latency:
-      - '2'
+      - '3'
       Via:
       - kong/0.11.2
     body:
@@ -284,6 +286,7 @@ http_interactions:
             "alotaiba",
             "alouis93",
             "alpha-beta-soup",
+            "alphawang",
             "alsemyonov",
             "alshaikh",
             "altoros",
@@ -381,7 +384,7 @@ http_interactions:
             "apage43",
             "apcj",
             "aphyr",
-            "api.",
+            "api",
             "apia",
             "apierleoni",
             "apigee",
@@ -401,7 +404,7 @@ http_interactions:
             "arataka",
             "arcadejhs",
             "arcamper",
-            "arch1-ext.rs.",
+            "arch1-ext.rs",
             "archan937",
             "archie",
             "arcusfelis",
@@ -480,7 +483,7 @@ http_interactions:
             "aussiegeek",
             "automatedtester",
             "autotelicum",
-            "aux1-ext.rs.",
+            "aux1-ext.rs",
             "auxesis",
             "avand",
             "avbin",
@@ -511,6 +514,7 @@ http_interactions:
             "balintsoos",
             "balondomingo",
             "balupton",
+            "banderson623",
             "banditmedia",
             "bangaloreruby",
             "banksytheluckystiff",
@@ -781,7 +785,7 @@ http_interactions:
             "caspii",
             "castaliopodcast",
             "casualjim",
-            "catalogo.basti1302.",
+            "catalogo.basti1302",
             "catalpalabs",
             "catchamonkey",
             "catchmrbharath",
@@ -1026,6 +1030,7 @@ http_interactions:
             "cziko",
             "czukowski",
             "d-share",
+            "d1b1",
             "dadleyy",
             "dadoonet",
             "daffl",
@@ -1110,7 +1115,7 @@ http_interactions:
             "dcparker",
             "dcramer",
             "dcwalker",
-            "ddbourgin.",
+            "ddbourgin",
             "ddk50",
             "ddr0",
             "deanm",
@@ -1449,8 +1454,8 @@ http_interactions:
             "expanz",
             "exploringdata",
             "exquery",
-            "ext1-ext.stg.",
-            "ext6-ext.stg.",
+            "ext1-ext.stg",
+            "ext6-ext.stg",
             "eyecatchup",
             "eyescale",
             "eyeseast",
@@ -1481,9 +1486,9 @@ http_interactions:
             "fcofdez",
             "fcrepo4-exts",
             "fdv",
-            "fe10-ext.rs.",
-            "fe2-ext.rs.",
-            "fe5-ext.rs.",
+            "fe10-ext.rs",
+            "fe2-ext.rs",
+            "fe5-ext.rs",
             "fe9lix",
             "fedorjia",
             "feldspar",
@@ -1896,6 +1901,7 @@ http_interactions:
             "hronom",
             "hrwgc",
             "hsgg",
+            "hsianing",
             "hsitz",
             "hspec",
             "hst",
@@ -2042,14 +2048,10 @@ http_interactions:
             "ivaynberg",
             "iven",
             "ivpr",
-            "ivyl",
-            "iyutao",
-            "j-ulrich",
-            "j2sol",
-            "j4mie"
+            "ivyl"
           ],
           "endpoint": "/v1/domain/github.com/subdomains"
         }
     http_version: 
-  recorded_at: Wed, 31 Oct 2018 13:10:16 GMT
+  recorded_at: Sat, 03 Nov 2018 13:06:00 GMT
 recorded_with: VCR 4.0.0
