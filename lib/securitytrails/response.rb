@@ -5,6 +5,8 @@ require "ostruct"
 module SecurityTrails
   class Response < OpenStruct
     def openstruct_to_hash(object, hash = {})
+      return object unless object.respond_to?(:each_pair)
+
       object.each_pair do |key, value|
         hash[key] = case value
                     when OpenStruct then openstruct_to_hash(value)
