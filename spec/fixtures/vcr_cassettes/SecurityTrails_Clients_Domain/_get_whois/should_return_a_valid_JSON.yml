@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.securitytrails.com/v1/domain/github.com/whois?apikey=<API_KEY>
+    uri: https://api.securitytrails.com/v1/domain/github.com/whois
     body:
       encoding: US-ASCII
       string: ''
@@ -15,13 +15,15 @@ http_interactions:
       - Ruby
       Host:
       - api.securitytrails.com
+      Apikey:
+      - "<API_KEY>"
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 31 Oct 2018 13:10:14 GMT
+      - Sat, 03 Nov 2018 13:06:07 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -35,9 +37,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 350cggfmtdahn4vudqv3ahlftel9km6m
+      - ab1kov3cafkrubchsfsie6ffg357emff
       X-Kong-Upstream-Latency:
-      - '769'
+      - '841'
       X-Kong-Proxy-Latency:
       - '1'
       Via:
@@ -50,14 +52,14 @@ http_interactions:
           "status": "clientUpdateProhibited clientTransferProhibited clientDeleteProhibited",
           "registrarName": "MarkMonitor, Inc.",
           "nameServers": [
-            "ns1.p16.dynect.net",
-            "ns4.p16.dynect.net",
             "ns2.p16.dynect.net",
+            "ns1.p16.dynect.net",
             "ns-1283.awsdns-32.org",
-            "ns-520.awsdns-01.net",
             "ns-421.awsdns-52.com",
+            "ns3.p16.dynect.net",
             "ns-1707.awsdns-21.co.uk",
-            "ns3.p16.dynect.net"
+            "ns-520.awsdns-01.net",
+            "ns4.p16.dynect.net"
           ],
           "expiresDate": "2020-10-09T11:20:50-0700",
           "endpoint": "/v1/domain/github.com/whois",
@@ -92,5 +94,5 @@ http_interactions:
           "contactEmail": "abusecomplaints@markmonitor.com"
         }
     http_version: 
-  recorded_at: Wed, 31 Oct 2018 13:10:14 GMT
+  recorded_at: Sat, 03 Nov 2018 13:06:06 GMT
 recorded_with: VCR 4.0.0
