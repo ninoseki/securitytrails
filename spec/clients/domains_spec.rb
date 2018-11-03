@@ -11,6 +11,7 @@ RSpec.describe SecurityTrails::Clients::Domains, :vcr do
         }
       )
       expect(res.records).to be_an(Array)
+      expect(res.to_h).to be_a(Hash)
     end
   end
 
