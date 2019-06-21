@@ -59,12 +59,16 @@ api.history.get_dns_history("github.com", "a")
 api.history.get_all_dns_history("github.com", "a")
 api.history.get_whois_history("github.com")
 
-
 # IPs
 # https://docs.securitytrails.com/v1.0/reference#ips
 api.ips.explore("8.8.8.8")
 api.ips.search("ptr_part = 'ns1'")
 api.ips.stats("ptr_part = 'amazon.com'")
+
+# Feeds
+# https://docs.securitytrails.com/v1.0/reference#feeds
+api.feeds.domain("new")
+api.feeds.domain("new", tld: "jp")
 ```
 
 All the API response (JSON / Hash) is wrapped by [OpenStruct](https://github.com/ruby/ostruct).

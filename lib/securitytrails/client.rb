@@ -39,10 +39,12 @@ module SecurityTrails
     def request(req)
       Net::HTTP.start(HOST, 443, https_options) do |http|
         response = http.request(req)
-        if response.code == '200'
+        raise(Error, "unsupported response code returned: #{response.code}") unless response.code == "200"
+
+        if response["Content-Type"].to_s.include? "application/json"
           yield JSON.parse(response.body, object_class: Response)
         else
-          raise(Error, "unsupported response code returned: #{response.code}")
+          yield response.body
         end
       end
     end

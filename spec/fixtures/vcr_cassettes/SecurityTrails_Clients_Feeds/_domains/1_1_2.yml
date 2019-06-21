@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.securitytrails.com/v1/feeds/domains/new?tld=jp
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.securitytrails.com
+      Apikey:
+      - "<API_KEY>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 21 Jun 2019 08:51:48 GMT
+      Content-Type:
+      - binary/octet-stream
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-Second:
+      - '5'
+      X-Ratelimit-Remaining-Second:
+      - '4'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ua6sthb2j1e9frg8s1nk94cukbes90lt
+      Last-Modified:
+      - Thu, 20 Jun 2019 13:02:14 GMT
+      Etag:
+      - '"c438868c1af4becda78a0eef8d9f323e"'
+      Content-Disposition:
+      - attachment; filename="new.2019-6-20.csv.gz"
+      X-Kong-Upstream-Latency:
+      - '346'
+      X-Kong-Proxy-Latency:
+      - '1'
+      Via:
+      - kong/0.11.2
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+    http_version: 
+  recorded_at: Fri, 21 Jun 2019 08:51:43 GMT
+recorded_with: VCR 5.0.0

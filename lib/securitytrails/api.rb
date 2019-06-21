@@ -6,6 +6,7 @@ module SecurityTrails
     attr_reader :domains
     attr_reader :history
     attr_reader :ips
+    attr_reader :feeds
 
     def initialize(api_key = ENV["SECURITYTRAILS_API_KEY"])
       raise(ArgumentError, "'api_key' argument is required") unless api_key
@@ -14,6 +15,7 @@ module SecurityTrails
       @domains  = Clients::Domains.new(api_key)
       @history  = Clients::History.new(api_key)
       @ips      = Clients::IPs.new(api_key)
+      @feeds    = Clients::Feeds.new(api_key)
     end
   end
 end
