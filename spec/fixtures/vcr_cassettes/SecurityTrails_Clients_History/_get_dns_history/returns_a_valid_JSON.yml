@@ -23,21 +23,27 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 03 Nov 2018 13:05:58 GMT
+      - Fri, 21 Jun 2019 09:25:42 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '33211'
+      - '32541'
       Connection:
       - keep-alive
       X-Ratelimit-Limit-Second:
-      - '2'
+      - '5'
       X-Ratelimit-Remaining-Second:
-      - '1'
+      - '4'
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 2mgucvtf0uqbt4ttcccr333bv6dtrk8k
+      - 7rtlc5r1549ek04hip6n8nho1522hib8
+      X-Kong-Upstream-Latency:
+      - '1085'
+      X-Kong-Proxy-Latency:
+      - '1'
+      Via:
+      - kong/0.11.2
     body:
       encoding: UTF-8
       string: |-
@@ -47,11 +53,7 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
-                  "ip": "192.30.253.113"
-                },
-                {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -59,17 +61,329 @@ http_interactions:
               "organizations": [
                 "GitHub, Inc."
               ],
-              "last_seen": null,
+              "last_seen": "2019-06-21",
+              "first_seen": "2019-06-19"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 471,
+                  "ip": "192.30.253.113"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-06-19",
+              "first_seen": "2019-06-18"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 470,
+                  "ip": "192.30.253.112"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-06-18",
+              "first_seen": "2019-06-16"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 471,
+                  "ip": "192.30.253.113"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-06-16",
+              "first_seen": "2019-06-15"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 470,
+                  "ip": "192.30.253.112"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-06-15",
+              "first_seen": "2019-06-13"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 471,
+                  "ip": "192.30.253.113"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-06-13",
+              "first_seen": "2019-06-12"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 470,
+                  "ip": "192.30.253.112"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-06-12",
+              "first_seen": "2019-06-01"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 471,
+                  "ip": "192.30.253.113"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-06-01",
+              "first_seen": "2019-05-31"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 470,
+                  "ip": "192.30.253.112"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-05-31",
+              "first_seen": "2019-05-30"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 471,
+                  "ip": "192.30.253.113"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-05-30",
+              "first_seen": "2019-05-29"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 470,
+                  "ip": "192.30.253.112"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-05-29",
+              "first_seen": "2019-05-28"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 471,
+                  "ip": "192.30.253.113"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-05-28",
+              "first_seen": "2019-05-25"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 470,
+                  "ip": "192.30.253.112"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-05-25",
+              "first_seen": "2019-05-21"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 471,
+                  "ip": "192.30.253.113"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-05-21",
+              "first_seen": "2019-05-20"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 470,
+                  "ip": "192.30.253.112"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-05-20",
+              "first_seen": "2019-05-18"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 471,
+                  "ip": "192.30.253.113"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-05-18",
+              "first_seen": "2019-05-16"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 470,
+                  "ip": "192.30.253.112"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-05-16",
+              "first_seen": "2019-05-15"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 471,
+                  "ip": "192.30.253.113"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-05-15",
+              "first_seen": "2019-05-13"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 470,
+                  "ip": "192.30.253.112"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-05-13",
+              "first_seen": "2019-05-10"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 471,
+                  "ip": "192.30.253.113"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-05-10",
+              "first_seen": "2019-05-07"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 470,
+                  "ip": "192.30.253.112"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-05-07",
+              "first_seen": "2019-05-05"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 471,
+                  "ip": "192.30.253.113"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-05-05",
+              "first_seen": "2019-05-03"
+            },
+            {
+              "values": [
+                {
+                  "ip_count": 471,
+                  "ip": "192.30.253.113"
+                },
+                {
+                  "ip_count": 470,
+                  "ip": "192.30.253.112"
+                }
+              ],
+              "type": "a",
+              "organizations": [
+                "GitHub, Inc."
+              ],
+              "last_seen": "2019-05-03",
               "first_seen": "2018-09-11"
             },
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -83,11 +397,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -101,11 +415,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -113,17 +427,17 @@ http_interactions:
               "organizations": [
                 "GitHub, Inc."
               ],
-              "last_seen": null,
+              "last_seen": "2018-09-05",
               "first_seen": "2018-09-04"
             },
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -137,11 +451,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -155,11 +469,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -173,11 +487,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -191,11 +505,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -209,11 +523,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -227,11 +541,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -245,11 +559,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -263,11 +577,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -281,11 +595,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -299,11 +613,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -317,11 +631,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -329,17 +643,17 @@ http_interactions:
               "organizations": [
                 "GitHub, Inc."
               ],
-              "last_seen": "2018-08-05",
+              "last_seen": "2018-08-04",
               "first_seen": "2018-08-02"
             },
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -353,11 +667,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -371,11 +685,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -389,11 +703,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -401,17 +715,17 @@ http_interactions:
               "organizations": [
                 "GitHub, Inc."
               ],
-              "last_seen": "2018-07-25",
+              "last_seen": "2018-07-24",
               "first_seen": "2018-07-23"
             },
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -425,11 +739,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -443,11 +757,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -461,11 +775,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -479,11 +793,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -491,17 +805,17 @@ http_interactions:
               "organizations": [
                 "GitHub, Inc."
               ],
-              "last_seen": "2018-07-15",
+              "last_seen": "2018-06-28",
               "first_seen": "2018-06-07"
             },
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -515,11 +829,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -533,11 +847,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -551,11 +865,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -569,11 +883,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -587,11 +901,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -605,11 +919,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -623,11 +937,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -641,11 +955,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -659,11 +973,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -677,11 +991,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -695,11 +1009,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -713,11 +1027,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -731,11 +1045,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -749,11 +1063,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -767,11 +1081,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -785,11 +1099,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -803,11 +1117,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -821,11 +1135,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -839,11 +1153,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -857,11 +1171,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -875,11 +1189,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -893,11 +1207,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -911,11 +1225,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -929,11 +1243,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -947,11 +1261,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -965,11 +1279,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -983,11 +1297,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1001,11 +1315,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1019,11 +1333,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1037,11 +1351,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1055,11 +1369,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1073,11 +1387,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1091,11 +1405,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1109,11 +1423,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1127,11 +1441,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1145,11 +1459,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1163,11 +1477,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1181,11 +1495,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1199,11 +1513,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1217,11 +1531,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1235,11 +1549,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1253,11 +1567,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1271,11 +1585,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1289,11 +1603,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1307,11 +1621,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1325,11 +1639,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1343,11 +1657,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1361,11 +1675,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1379,11 +1693,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1397,11 +1711,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1415,11 +1729,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 102,
+                  "ip_count": 471,
                   "ip": "192.30.253.113"
                 },
                 {
-                  "ip_count": 90,
+                  "ip_count": 470,
                   "ip": "192.30.253.112"
                 }
               ],
@@ -1433,11 +1747,11 @@ http_interactions:
             {
               "values": [
                 {
-                  "ip_count": 14,
+                  "ip_count": 10,
                   "ip": "192.30.255.113"
                 },
                 {
-                  "ip_count": 32,
+                  "ip_count": 26,
                   "ip": "192.30.255.112"
                 }
               ],
@@ -1447,353 +1761,11 @@ http_interactions:
               ],
               "last_seen": "2017-12-17",
               "first_seen": "2017-12-16"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 102,
-                  "ip": "192.30.253.113"
-                },
-                {
-                  "ip_count": 90,
-                  "ip": "192.30.253.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-12-16",
-              "first_seen": "2017-12-14"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 14,
-                  "ip": "192.30.255.113"
-                },
-                {
-                  "ip_count": 32,
-                  "ip": "192.30.255.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-12-14",
-              "first_seen": "2017-12-13"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 102,
-                  "ip": "192.30.253.113"
-                },
-                {
-                  "ip_count": 90,
-                  "ip": "192.30.253.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-12-13",
-              "first_seen": "2017-12-06"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 14,
-                  "ip": "192.30.255.113"
-                },
-                {
-                  "ip_count": 32,
-                  "ip": "192.30.255.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-12-06",
-              "first_seen": "2017-12-05"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 102,
-                  "ip": "192.30.253.113"
-                },
-                {
-                  "ip_count": 90,
-                  "ip": "192.30.253.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-12-05",
-              "first_seen": "2017-11-19"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 14,
-                  "ip": "192.30.255.113"
-                },
-                {
-                  "ip_count": 32,
-                  "ip": "192.30.255.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-11-19",
-              "first_seen": "2017-11-18"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 102,
-                  "ip": "192.30.253.113"
-                },
-                {
-                  "ip_count": 90,
-                  "ip": "192.30.253.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-11-18",
-              "first_seen": "2017-11-16"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 14,
-                  "ip": "192.30.255.113"
-                },
-                {
-                  "ip_count": 32,
-                  "ip": "192.30.255.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-11-16",
-              "first_seen": "2017-11-15"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 102,
-                  "ip": "192.30.253.113"
-                },
-                {
-                  "ip_count": 90,
-                  "ip": "192.30.253.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-11-15",
-              "first_seen": "2017-11-13"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 14,
-                  "ip": "192.30.255.113"
-                },
-                {
-                  "ip_count": 32,
-                  "ip": "192.30.255.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-11-13",
-              "first_seen": "2017-11-12"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 102,
-                  "ip": "192.30.253.113"
-                },
-                {
-                  "ip_count": 90,
-                  "ip": "192.30.253.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-11-12",
-              "first_seen": "2017-11-05"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 14,
-                  "ip": "192.30.255.113"
-                },
-                {
-                  "ip_count": 32,
-                  "ip": "192.30.255.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-11-05",
-              "first_seen": "2017-11-04"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 102,
-                  "ip": "192.30.253.113"
-                },
-                {
-                  "ip_count": 90,
-                  "ip": "192.30.253.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-11-04",
-              "first_seen": "2017-11-01"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 14,
-                  "ip": "192.30.255.113"
-                },
-                {
-                  "ip_count": 32,
-                  "ip": "192.30.255.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-11-01",
-              "first_seen": "2017-10-29"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 102,
-                  "ip": "192.30.253.113"
-                },
-                {
-                  "ip_count": 90,
-                  "ip": "192.30.253.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-10-29",
-              "first_seen": "2017-10-15"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 14,
-                  "ip": "192.30.255.113"
-                },
-                {
-                  "ip_count": 32,
-                  "ip": "192.30.255.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-10-15",
-              "first_seen": "2017-10-14"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 102,
-                  "ip": "192.30.253.113"
-                },
-                {
-                  "ip_count": 90,
-                  "ip": "192.30.253.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-10-14",
-              "first_seen": "2017-10-11"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 14,
-                  "ip": "192.30.255.113"
-                },
-                {
-                  "ip_count": 32,
-                  "ip": "192.30.255.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-10-11",
-              "first_seen": "2017-10-10"
-            },
-            {
-              "values": [
-                {
-                  "ip_count": 102,
-                  "ip": "192.30.253.113"
-                },
-                {
-                  "ip_count": 90,
-                  "ip": "192.30.253.112"
-                }
-              ],
-              "type": "a",
-              "organizations": [
-                "GitHub, Inc."
-              ],
-              "last_seen": "2017-10-10",
-              "first_seen": "2017-10-08"
             }
           ],
-          "pages": 8,
+          "pages": 4,
           "endpoint": "/v1/history/github.com/dns/a"
         }
     http_version: 
-  recorded_at: Sat, 03 Nov 2018 13:05:59 GMT
-recorded_with: VCR 4.0.0
+  recorded_at: Fri, 21 Jun 2019 09:25:36 GMT
+recorded_with: VCR 5.0.0

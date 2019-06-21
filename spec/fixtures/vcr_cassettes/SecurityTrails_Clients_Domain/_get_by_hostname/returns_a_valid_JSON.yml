@@ -23,21 +23,27 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 03 Nov 2018 13:06:02 GMT
+      - Fri, 21 Jun 2019 09:25:37 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '3650'
+      - '3424'
       Connection:
       - keep-alive
       X-Ratelimit-Limit-Second:
-      - '2'
+      - '5'
       X-Ratelimit-Remaining-Second:
-      - '1'
+      - '3'
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - cktmvt2q7sn2r701qncpnkrc4g3c11lp
+      - ab4cp1hcrjp3ejfm6p9f84ktkvfm3aeb
+      X-Kong-Upstream-Latency:
+      - '412'
+      X-Kong-Proxy-Latency:
+      - '35'
+      Via:
+      - kong/0.11.2
     body:
       encoding: UTF-8
       string: |-
@@ -48,10 +54,13 @@ http_interactions:
             "txt": {
               "values": [
                 {
-                  "value": "v=spf1 ip4:192.30.252.0/22 ip4:208.74.204.0/22 ip4:46.19.168.0/23 include:_spf.google.com include:esp.github.com include:_spf.createsend.com include:mail.zendesk.com include:servers.mcsv.net ~all"
+                  "value": "v=spf1 ip4:192.30.252.0/22 ip4:208.74.204.0/22 ip4:46.19.168.0/23 include:_spf.google.com include:esp.github.com include:_spf.createsend.com include:servers.mcsv.net ~all"
                 },
                 {
                   "value": "docusign=087098e3-3d46-47b7-9b4e-8a23028154cd"
+                },
+                {
+                  "value": "MS=ms58704441"
                 },
                 {
                   "value": "MS=ms44452932"
@@ -60,119 +69,112 @@ http_interactions:
                   "value": "MS=6BF03E6AF5CB689E315FB6199603BABF2C88D805"
                 }
               ],
-              "first_seen": "2018-10-19"
+              "first_seen": null
             },
             "soa": {
               "values": [
                 {
                   "ttl": 7200,
-                  "email_count": 1906424,
+                  "email_count": 2174697,
                   "email": "awsdns-hostmaster.amazon.com"
                 }
               ],
-              "first_seen": "2018-11-01"
+              "first_seen": null
             },
             "ns": {
               "values": [
                 {
-                  "nameserver_organization": "Dynamic Network Services, Inc.",
-                  "nameserver_count": 6752,
+                  "nameserver_organization": "Oracle Corporation",
+                  "nameserver_count": 6217,
                   "nameserver": "ns4.p16.dynect.net"
                 },
                 {
-                  "nameserver_organization": "Dynamic Network Services, Inc.",
-                  "nameserver_count": 6740,
+                  "nameserver_organization": "Oracle Corporation",
+                  "nameserver_count": 6208,
                   "nameserver": "ns3.p16.dynect.net"
                 },
                 {
-                  "nameserver_organization": "Dynamic Network Services, Inc.",
-                  "nameserver_count": 6750,
+                  "nameserver_organization": "Oracle Corporation",
+                  "nameserver_count": 6213,
                   "nameserver": "ns2.p16.dynect.net"
                 },
                 {
-                  "nameserver_organization": "Dynamic Network Services, Inc.",
-                  "nameserver_count": 6749,
+                  "nameserver_organization": "Oracle Corporation",
+                  "nameserver_count": 6214,
                   "nameserver": "ns1.p16.dynect.net"
                 },
                 {
                   "nameserver_organization": "Amazon.com, Inc.",
-                  "nameserver_count": 3674,
+                  "nameserver_count": 4123,
                   "nameserver": "ns-520.awsdns-01.net"
                 },
                 {
                   "nameserver_organization": "Amazon.com, Inc.",
-                  "nameserver_count": 3586,
+                  "nameserver_count": 4077,
                   "nameserver": "ns-421.awsdns-52.com"
                 },
                 {
                   "nameserver_organization": "Amazon.com, Inc.",
-                  "nameserver_count": 3804,
+                  "nameserver_count": 4243,
                   "nameserver": "ns-1707.awsdns-21.co.uk"
                 },
                 {
                   "nameserver_organization": "Amazon.com, Inc.",
-                  "nameserver_count": 3592,
+                  "nameserver_count": 4057,
                   "nameserver": "ns-1283.awsdns-32.org"
                 }
               ],
-              "first_seen": "2017-06-27"
+              "first_seen": null
             },
             "mx": {
               "values": [
                 {
                   "priority": 10,
-                  "hostname_organization": "Google Inc.",
-                  "hostname_count": 3713718,
+                  "hostname_organization": "Google LLC",
+                  "hostname_count": 4501023,
                   "hostname": "alt4.aspmx.l.google.com"
                 },
                 {
                   "priority": 10,
-                  "hostname_organization": "Google Inc.",
-                  "hostname_count": 3785105,
+                  "hostname_organization": "Google LLC",
+                  "hostname_count": 4564741,
                   "hostname": "alt3.aspmx.l.google.com"
                 },
                 {
                   "priority": 5,
-                  "hostname_organization": "Google Inc.",
-                  "hostname_count": 9639752,
+                  "hostname_organization": "Google LLC",
+                  "hostname_count": 10449480,
                   "hostname": "alt2.aspmx.l.google.com"
                 },
                 {
                   "priority": 5,
-                  "hostname_organization": "Google Inc.",
-                  "hostname_count": 9723037,
+                  "hostname_organization": "Google LLC",
+                  "hostname_count": 10530200,
                   "hostname": "alt1.aspmx.l.google.com"
                 },
                 {
                   "priority": 1,
-                  "hostname_organization": "Google Inc.",
-                  "hostname_count": 9986305,
+                  "hostname_organization": "Google LLC",
+                  "hostname_count": 10805021,
                   "hostname": "aspmx.l.google.com"
                 }
               ],
-              "first_seen": "2017-05-26"
+              "first_seen": null
             },
             "aaaa": {},
             "a": {
               "values": [
                 {
                   "ip_organization": "GitHub, Inc.",
-                  "ip_count": 102,
-                  "ip": "192.30.253.113",
-                  "h": null
-                },
-                {
-                  "ip_organization": "GitHub, Inc.",
-                  "ip_count": 90,
-                  "ip": "192.30.253.112",
-                  "h": null
+                  "ip_count": 470,
+                  "ip": "192.30.253.112"
                 }
               ],
-              "first_seen": "2018-09-12"
+              "first_seen": null
             }
           },
-          "alexa_rank": 57
+          "alexa_rank": 41
         }
     http_version: 
-  recorded_at: Sat, 03 Nov 2018 13:06:02 GMT
-recorded_with: VCR 4.0.0
+  recorded_at: Fri, 21 Jun 2019 09:25:31 GMT
+recorded_with: VCR 5.0.0

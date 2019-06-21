@@ -23,25 +23,25 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 03 Nov 2018 13:06:04 GMT
+      - Fri, 21 Jun 2019 09:25:36 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '34692'
+      - '34681'
       Connection:
       - keep-alive
       X-Ratelimit-Limit-Second:
-      - '2'
+      - '5'
       X-Ratelimit-Remaining-Second:
-      - '1'
+      - '4'
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 2bur3okvve228l299029hl6ucl2dshea
+      - 4d7um8f6huu1aibg48d7m8m800b3dk78
       X-Kong-Upstream-Latency:
-      - '90'
+      - '24'
       X-Kong-Proxy-Latency:
-      - '1'
+      - '2'
       Via:
       - kong/0.11.2
     body:
@@ -56,7 +56,7 @@ http_interactions:
                 "createdDate": 1273700334000
               },
               "mail_provider": [
-                "Google Inc."
+                "Google LLC"
               ],
               "hostname": "speakerdeck.com",
               "host_provider": [
@@ -65,23 +65,7 @@ http_interactions:
               "computed": {
                 "company_name": "GitHub, Inc."
               },
-              "alexa_rank": 14248
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1536253040000,
-                "createdDate": 1473181040000
-              },
-              "mail_provider": [],
-              "hostname": "opensource.guide",
-              "host_provider": [
-                "GitHub, Inc."
-              ],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": 240515
+              "alexa_rank": 20438
             },
             {
               "whois": {
@@ -97,7 +81,55 @@ http_interactions:
               "computed": {
                 "company_name": "GitHub, Inc."
               },
-              "alexa_rank": 629154
+              "alexa_rank": 42232
+            },
+            {
+              "whois": {
+                "registrar": "eNom, Inc.",
+                "expiresDate": 1523921754000,
+                "createdDate": 1334619354000
+              },
+              "mail_provider": [],
+              "hostname": "choosealicense.com",
+              "host_provider": [
+                "Fastly"
+              ],
+              "computed": {
+                "company_name": "GITHUB"
+              },
+              "alexa_rank": 146262
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1536253040000,
+                "createdDate": 1473181040000
+              },
+              "mail_provider": [],
+              "hostname": "opensource.guide",
+              "host_provider": [
+                "Fastly"
+              ],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": 233618
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1562778372000,
+                "createdDate": 1499706372000
+              },
+              "mail_provider": [],
+              "hostname": "githubcampus.expert",
+              "host_provider": [
+                "Fastly"
+              ],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": 600010
             },
             {
               "whois": {
@@ -126,36 +158,6 @@ http_interactions:
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "eNom, Inc.",
-                "expiresDate": 1523921754000,
-                "createdDate": 1334619354000
-              },
-              "mail_provider": [],
-              "hostname": "choosealicense.com",
-              "host_provider": [
-                "GitHub, Inc."
-              ],
-              "computed": {
-                "company_name": "GITHUB"
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "eNom, Inc.",
-                "expiresDate": 1538336989000,
-                "createdDate": 1285876189000
-              },
-              "mail_provider": [],
-              "hostname": "codeconf.net",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GITHUB"
               },
               "alexa_rank": null
             },
@@ -239,26 +241,84 @@ http_interactions:
             },
             {
               "whois": {
-                "registrar": "eNom, Inc.",
-                "expiresDate": 1549678019000,
-                "createdDate": 1202522819000
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574716043000,
+                "createdDate": 1448485643000
               },
               "mail_provider": [],
-              "hostname": "github.net",
+              "hostname": "github.foundation",
               "host_provider": [],
               "computed": {
-                "company_name": "GITHUB"
+                "company_name": "GitHub, Inc."
               },
               "alexa_rank": null
             },
             {
               "whois": {
                 "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574716043000,
-                "createdDate": 1448485643000
+                "expiresDate": 1558287118000,
+                "createdDate": 1432056718000
               },
               "mail_provider": [],
-              "hostname": "github.fail",
+              "hostname": "github.engineering",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574717433000,
+                "createdDate": 1448487033000
+              },
+              "mail_provider": [],
+              "hostname": "github.media",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574717433000,
+                "createdDate": 1448487033000
+              },
+              "mail_provider": [],
+              "hostname": "github.parts",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1533488660000,
+                "createdDate": 1281027860000
+              },
+              "mail_provider": [],
+              "hostname": "github.tv",
+              "host_provider": [
+                "GitHub, Inc."
+              ],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574717434000,
+                "createdDate": 1448487034000
+              },
+              "mail_provider": [],
+              "hostname": "github.photos",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -272,21 +332,7 @@ http_interactions:
                 "createdDate": 1448487034000
               },
               "mail_provider": [],
-              "hostname": "github.network",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574718213000,
-                "createdDate": 1448487813000
-              },
-              "mail_provider": [],
-              "hostname": "github.school",
+              "hostname": "github.properties",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -300,7 +346,7 @@ http_interactions:
                 "createdDate": null
               },
               "mail_provider": [],
-              "hostname": "github.co.at",
+              "hostname": "github.at",
               "host_provider": [
                 "Akamai Technologies, Inc."
               ],
@@ -312,11 +358,11 @@ http_interactions:
             {
               "whois": {
                 "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1579539601000,
-                "createdDate": 1453309201000
+                "expiresDate": 1574714765000,
+                "createdDate": 1448484365000
               },
               "mail_provider": [],
-              "hostname": "github.family",
+              "hostname": "github.education",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -340,114 +386,14 @@ http_interactions:
             {
               "whois": {
                 "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574717433000,
-                "createdDate": 1448487033000
+                "expiresDate": 1574717434000,
+                "createdDate": 1448487034000
               },
               "mail_provider": [],
-              "hostname": "github.partners",
+              "hostname": "github.photo",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574716043000,
-                "createdDate": 1448485643000
-              },
-              "mail_provider": [],
-              "hostname": "github.enterprises",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574717433000,
-                "createdDate": 1448487033000
-              },
-              "mail_provider": [],
-              "hostname": "github.marketing",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574716042000,
-                "createdDate": 1448485642000
-              },
-              "mail_provider": [],
-              "hostname": "github.gallery",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574716043000,
-                "createdDate": 1448485643000
-              },
-              "mail_provider": [],
-              "hostname": "github.foundation",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574718212000,
-                "createdDate": 1448487812000
-              },
-              "mail_provider": [],
-              "hostname": "github.style",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574714765000,
-                "createdDate": 1448484365000
-              },
-              "mail_provider": [],
-              "hostname": "github.education",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MARKMONITOR INC",
-                "expiresDate": 1590808891000,
-                "createdDate": 1338348091000
-              },
-              "mail_provider": [],
-              "hostname": "github.sg",
-              "host_provider": [
-                "Akamai Technologies, Inc."
-              ],
-              "computed": {
-                "company_name": null
               },
               "alexa_rank": null
             },
@@ -468,11 +414,11 @@ http_interactions:
             {
               "whois": {
                 "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574718213000,
-                "createdDate": 1448487813000
+                "expiresDate": 1571506580000,
+                "createdDate": 1445276180000
               },
               "mail_provider": [],
-              "hostname": "github.tools",
+              "hostname": "github.systems",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -482,16 +428,14 @@ http_interactions:
             {
               "whois": {
                 "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1590792763000,
-                "createdDate": 1338331963000
+                "expiresDate": 1574717433000,
+                "createdDate": 1448487033000
               },
               "mail_provider": [],
-              "hostname": "github.jobs",
-              "host_provider": [
-                "Akamai Technologies, Inc."
-              ],
+              "hostname": "github.industries",
+              "host_provider": [],
               "computed": {
-                "company_name": null
+                "company_name": "GitHub, Inc."
               },
               "alexa_rank": null
             },
@@ -512,11 +456,11 @@ http_interactions:
             {
               "whois": {
                 "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574717434000,
-                "createdDate": 1448487034000
+                "expiresDate": 1574718212000,
+                "createdDate": 1448487812000
               },
               "mail_provider": [],
-              "hostname": "github.management",
+              "hostname": "github.tours",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -526,11 +470,39 @@ http_interactions:
             {
               "whois": {
                 "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574718213000,
-                "createdDate": 1448487813000
+                "expiresDate": 1574718212000,
+                "createdDate": 1448487812000
               },
               "mail_provider": [],
-              "hostname": "github.works",
+              "hostname": "github.video",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574717433000,
+                "createdDate": 1448487033000
+              },
+              "mail_provider": [],
+              "hostname": "github.partners",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1579539601000,
+                "createdDate": 1453309201000
+              },
+              "mail_provider": [],
+              "hostname": "github.family",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -556,11 +528,11 @@ http_interactions:
             {
               "whois": {
                 "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574714000000,
-                "createdDate": 1448483600000
+                "expiresDate": 1574718212000,
+                "createdDate": 1448487812000
               },
               "mail_provider": [],
-              "hostname": "github.services",
+              "hostname": "github.social",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -570,11 +542,39 @@ http_interactions:
             {
               "whois": {
                 "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574726399000,
-                "createdDate": 1448487814000
+                "expiresDate": 1574718213000,
+                "createdDate": 1448487813000
               },
               "mail_provider": [],
-              "hostname": "github.tokyo",
+              "hostname": "github.world",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574716043000,
+                "createdDate": 1448485643000
+              },
+              "mail_provider": [],
+              "hostname": "github.express",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1524685951000,
+                "createdDate": 1398455551000
+              },
+              "mail_provider": [],
+              "hostname": "github.codes",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -588,7 +588,7 @@ http_interactions:
                 "createdDate": 1448487034000
               },
               "mail_provider": [],
-              "hostname": "github.photo",
+              "hostname": "github.property",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -602,7 +602,65 @@ http_interactions:
                 "createdDate": 1448487033000
               },
               "mail_provider": [],
-              "hostname": "github.plus",
+              "hostname": "github.productions",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": null,
+                "expiresDate": 1519854674144,
+                "createdDate": 1330293074144
+              },
+              "mail_provider": [],
+              "hostname": "github.jp",
+              "host_provider": [
+                "GitHub, Inc."
+              ],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574716043000,
+                "createdDate": 1448485643000
+              },
+              "mail_provider": [],
+              "hostname": "github.exchange",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574716042000,
+                "createdDate": 1448485642000
+              },
+              "mail_provider": [],
+              "hostname": "github.gallery",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574718213000,
+                "createdDate": 1448487813000
+              },
+              "mail_provider": [],
+              "hostname": "github.report",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -616,7 +674,63 @@ http_interactions:
                 "createdDate": 1448487812000
               },
               "mail_provider": [],
-              "hostname": "github.ventures",
+              "hostname": "github.training",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574717435000,
+                "createdDate": 1448487035000
+              },
+              "mail_provider": [],
+              "hostname": "github.hosting",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574718213000,
+                "createdDate": 1448487813000
+              },
+              "mail_provider": [],
+              "hostname": "github.show",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574718213000,
+                "createdDate": 1448487813000
+              },
+              "mail_provider": [],
+              "hostname": "github.works",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574716043000,
+                "createdDate": 1448485643000
+              },
+              "mail_provider": [],
+              "hostname": "github.enterprises",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -630,7 +744,7 @@ http_interactions:
                 "createdDate": 1448487812000
               },
               "mail_provider": [],
-              "hostname": "github.software",
+              "hostname": "github.university",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -640,39 +754,11 @@ http_interactions:
             {
               "whois": {
                 "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574718212000,
-                "createdDate": 1448487812000
+                "expiresDate": 1574716043000,
+                "createdDate": 1448485643000
               },
               "mail_provider": [],
-              "hostname": "github.tours",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574717434000,
-                "createdDate": 1448487034000
-              },
-              "mail_provider": [],
-              "hostname": "github.institute",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574717433000,
-                "createdDate": 1448487033000
-              },
-              "mail_provider": [],
-              "hostname": "github.international",
+              "hostname": "github.expert",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -709,26 +795,28 @@ http_interactions:
             },
             {
               "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574717433000,
-                "createdDate": 1448487033000
+                "registrar": "eNom, Inc.",
+                "expiresDate": 1552867199000,
+                "createdDate": 1332028799000
               },
               "mail_provider": [],
-              "hostname": "github.industries",
-              "host_provider": [],
+              "hostname": "github.fm",
+              "host_provider": [
+                "Amazon.com, Inc."
+              ],
               "computed": {
-                "company_name": "GitHub, Inc."
+                "company_name": "GitHub, Inc"
               },
               "alexa_rank": null
             },
             {
               "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574717433000,
-                "createdDate": 1448487033000
+                "registrar": null,
+                "expiresDate": 1575347382580,
+                "createdDate": 1449116982580
               },
               "mail_provider": [],
-              "hostname": "github.limited",
+              "hostname": "github.ml",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -742,49 +830,7 @@ http_interactions:
                 "createdDate": 1448487034000
               },
               "mail_provider": [],
-              "hostname": "github.photos",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1558287118000,
-                "createdDate": 1432056718000
-              },
-              "mail_provider": [],
-              "hostname": "github.engineering",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574716043000,
-                "createdDate": 1448485643000
-              },
-              "mail_provider": [],
-              "hostname": "github.exchange",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1524685951000,
-                "createdDate": 1398455551000
-              },
-              "mail_provider": [],
-              "hostname": "github.codes",
+              "hostname": "github.legal",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -798,7 +844,7 @@ http_interactions:
                 "createdDate": 1448487033000
               },
               "mail_provider": [],
-              "hostname": "github.productions",
+              "hostname": "github.marketing",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -812,7 +858,7 @@ http_interactions:
                 "createdDate": 1448487812000
               },
               "mail_provider": [],
-              "hostname": "github.social",
+              "hostname": "github.style",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -821,28 +867,12 @@ http_interactions:
             },
             {
               "whois": {
-                "registrar": null,
-                "expiresDate": null,
-                "createdDate": null
-              },
-              "mail_provider": [],
-              "hostname": "github.at",
-              "host_provider": [
-                "Akamai Technologies, Inc."
-              ],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
                 "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574718213000,
-                "createdDate": 1448487813000
+                "expiresDate": 1574718212000,
+                "createdDate": 1448487812000
               },
               "mail_provider": [],
-              "hostname": "github.supply",
+              "hostname": "github.ventures",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -866,168 +896,6 @@ http_interactions:
             {
               "whois": {
                 "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574718212000,
-                "createdDate": 1448487812000
-              },
-              "mail_provider": [],
-              "hostname": "github.video",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574717433000,
-                "createdDate": 1448487033000
-              },
-              "mail_provider": [],
-              "hostname": "github.parts",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574718212000,
-                "createdDate": 1448487812000
-              },
-              "mail_provider": [],
-              "hostname": "github.voyage",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": null,
-                "expiresDate": null,
-                "createdDate": null
-              },
-              "mail_provider": [],
-              "hostname": "github.lv",
-              "host_provider": [
-                "Akamai Technologies, Inc."
-              ],
-              "computed": {
-                "company_name": null
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1571506580000,
-                "createdDate": 1445276180000
-              },
-              "mail_provider": [],
-              "hostname": "github.systems",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": null,
-                "expiresDate": 1519854674144,
-                "createdDate": 1330293074144
-              },
-              "mail_provider": [],
-              "hostname": "github.jp",
-              "host_provider": [
-                "GitHub, Inc."
-              ],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574717434000,
-                "createdDate": 1448487034000
-              },
-              "mail_provider": [],
-              "hostname": "github.legal",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574717435000,
-                "createdDate": 1448487035000
-              },
-              "mail_provider": [],
-              "hostname": "github.markets",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574716043000,
-                "createdDate": 1448485643000
-              },
-              "mail_provider": [],
-              "hostname": "github.expert",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1533488660000,
-                "createdDate": 1281027860000
-              },
-              "mail_provider": [],
-              "hostname": "github.tv",
-              "host_provider": [
-                "GitHub, Inc."
-              ],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor, Inc.",
-                "expiresDate": 1533427199000,
-                "createdDate": 1281027857000
-              },
-              "mail_provider": [],
-              "hostname": "github.us",
-              "host_provider": [
-                "GitHub, Inc."
-              ],
-              "computed": {
-                "company_name": "GitHub"
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
                 "expiresDate": 1574714230000,
                 "createdDate": 1448483830000
               },
@@ -1041,199 +909,15 @@ http_interactions:
             },
             {
               "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574717433000,
-                "createdDate": 1448487033000
+                "registrar": null,
+                "expiresDate": null,
+                "createdDate": null
               },
               "mail_provider": [],
-              "hostname": "github.movie",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574718213000,
-                "createdDate": 1448487813000
-              },
-              "mail_provider": [],
-              "hostname": "github.report",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574717435000,
-                "createdDate": 1448487035000
-              },
-              "mail_provider": [],
-              "hostname": "github.hosting",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574718212000,
-                "createdDate": 1448487812000
-              },
-              "mail_provider": [],
-              "hostname": "github.university",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574718213000,
-                "createdDate": 1448487813000
-              },
-              "mail_provider": [],
-              "hostname": "github.show",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "eNom, Inc.",
-                "expiresDate": 1552867199000,
-                "createdDate": 1332028799000
-              },
-              "mail_provider": [],
-              "hostname": "github.fm",
-              "host_provider": [
-                "Amazon.com, Inc."
-              ],
-              "computed": {
-                "company_name": "GitHub, Inc"
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MARKMONITOR INC",
-                "expiresDate": 1590808884000,
-                "createdDate": 1338348084000
-              },
-              "mail_provider": [],
-              "hostname": "github.com.sg",
+              "hostname": "github.co.at",
               "host_provider": [
                 "Akamai Technologies, Inc."
               ],
-              "computed": {
-                "company_name": null
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574718212000,
-                "createdDate": 1448487812000
-              },
-              "mail_provider": [],
-              "hostname": "github.studio",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574718213000,
-                "createdDate": 1448487813000
-              },
-              "mail_provider": [],
-              "hostname": "github.world",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574717433000,
-                "createdDate": 1448487033000
-              },
-              "mail_provider": [],
-              "hostname": "github.media",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574716043000,
-                "createdDate": 1448485643000
-              },
-              "mail_provider": [],
-              "hostname": "github.express",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574717434000,
-                "createdDate": 1448487034000
-              },
-              "mail_provider": [],
-              "hostname": "github.property",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574717433000,
-                "createdDate": 1448487033000
-              },
-              "mail_provider": [],
-              "hostname": "github.pictures",
-              "host_provider": [],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1574718212000,
-                "createdDate": 1448487812000
-              },
-              "mail_provider": [],
-              "hostname": "github.training",
-              "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
               },
@@ -1260,7 +944,311 @@ http_interactions:
                 "createdDate": 1448487034000
               },
               "mail_provider": [],
-              "hostname": "github.properties",
+              "hostname": "github.management",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574716043000,
+                "createdDate": 1448485643000
+              },
+              "mail_provider": [],
+              "hostname": "github.fail",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574717434000,
+                "createdDate": 1448487034000
+              },
+              "mail_provider": [],
+              "hostname": "github.institute",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1590792763000,
+                "createdDate": 1338331963000
+              },
+              "mail_provider": [],
+              "hostname": "github.jobs",
+              "host_provider": [
+                "Akamai Technologies, Inc."
+              ],
+              "computed": {
+                "company_name": null
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574717433000,
+                "createdDate": 1448487033000
+              },
+              "mail_provider": [],
+              "hostname": "github.plus",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574717433000,
+                "createdDate": 1448487033000
+              },
+              "mail_provider": [],
+              "hostname": "github.international",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574714000000,
+                "createdDate": 1448483600000
+              },
+              "mail_provider": [],
+              "hostname": "github.services",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574718212000,
+                "createdDate": 1448487812000
+              },
+              "mail_provider": [],
+              "hostname": "github.software",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574718212000,
+                "createdDate": 1448487812000
+              },
+              "mail_provider": [],
+              "hostname": "github.studio",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor, Inc.",
+                "expiresDate": 1533427199000,
+                "createdDate": 1281027857000
+              },
+              "mail_provider": [],
+              "hostname": "github.us",
+              "host_provider": [
+                "GitHub, Inc."
+              ],
+              "computed": {
+                "company_name": "GitHub"
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574717433000,
+                "createdDate": 1448487033000
+              },
+              "mail_provider": [],
+              "hostname": "github.limited",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574717433000,
+                "createdDate": 1448487033000
+              },
+              "mail_provider": [],
+              "hostname": "github.pictures",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": null,
+                "expiresDate": null,
+                "createdDate": null
+              },
+              "mail_provider": [],
+              "hostname": "github.lv",
+              "host_provider": [
+                "Akamai Technologies, Inc."
+              ],
+              "computed": {
+                "company_name": null
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MARKMONITOR INC",
+                "expiresDate": 1590808884000,
+                "createdDate": 1338348084000
+              },
+              "mail_provider": [],
+              "hostname": "github.com.sg",
+              "host_provider": [
+                "Akamai Technologies, Inc."
+              ],
+              "computed": {
+                "company_name": null
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574717433000,
+                "createdDate": 1448487033000
+              },
+              "mail_provider": [],
+              "hostname": "github.movie",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574718213000,
+                "createdDate": 1448487813000
+              },
+              "mail_provider": [],
+              "hostname": "github.supply",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574718213000,
+                "createdDate": 1448487813000
+              },
+              "mail_provider": [],
+              "hostname": "github.tools",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574726399000,
+                "createdDate": 1448487814000
+              },
+              "mail_provider": [],
+              "hostname": "github.tokyo",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MARKMONITOR INC",
+                "expiresDate": 1590808891000,
+                "createdDate": 1338348091000
+              },
+              "mail_provider": [],
+              "hostname": "github.sg",
+              "host_provider": [
+                "Akamai Technologies, Inc."
+              ],
+              "computed": {
+                "company_name": null
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574718212000,
+                "createdDate": 1448487812000
+              },
+              "mail_provider": [],
+              "hostname": "github.voyage",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574718213000,
+                "createdDate": 1448487813000
+              },
+              "mail_provider": [],
+              "hostname": "github.school",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GitHub, Inc."
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "MarkMonitor Inc.",
+                "expiresDate": 1574717435000,
+                "createdDate": 1448487035000
+              },
+              "mail_provider": [],
+              "hostname": "github.markets",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -1299,28 +1287,12 @@ http_interactions:
             },
             {
               "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1562778372000,
-                "createdDate": 1499706372000
+                "registrar": "MarkMonitor, Inc.",
+                "expiresDate": 1582156799000,
+                "createdDate": 1455926844000
               },
               "mail_provider": [],
-              "hostname": "githubcampus.expert",
-              "host_provider": [
-                "GitHub, Inc."
-              ],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1581932976000,
-                "createdDate": 1455702576000
-              },
-              "mail_provider": [],
-              "hostname": "githubcloud.net",
+              "hostname": "githubcloud.us",
               "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -1335,22 +1307,6 @@ http_interactions:
               },
               "mail_provider": [],
               "hostname": "githubenterprise.com",
-              "host_provider": [
-                "Namecheap, Inc."
-              ],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1542757993000,
-                "createdDate": 1353455593000
-              },
-              "mail_provider": [],
-              "hostname": "githubenterprise.net",
               "host_provider": [
                 "Namecheap, Inc."
               ],
@@ -1384,7 +1340,7 @@ http_interactions:
               "mail_provider": [],
               "hostname": "githubfieldday.com",
               "host_provider": [
-                "GitHub, Inc."
+                "Fastly"
               ],
               "computed": {
                 "company_name": "GitHub, Inc."
@@ -1398,7 +1354,7 @@ http_interactions:
                 "createdDate": 1404392615000
               },
               "mail_provider": [
-                "Google Inc."
+                "Google LLC"
               ],
               "hostname": "githubmail.com",
               "host_provider": [],
@@ -1418,20 +1374,6 @@ http_interactions:
               "host_provider": [
                 "GitHub, Inc."
               ],
-              "computed": {
-                "company_name": "GitHub, Inc."
-              },
-              "alexa_rank": null
-            },
-            {
-              "whois": {
-                "registrar": "MarkMonitor Inc.",
-                "expiresDate": 1543767127000,
-                "createdDate": 1449072727000
-              },
-              "mail_provider": [],
-              "hostname": "githubtest.net",
-              "host_provider": [],
               "computed": {
                 "company_name": "GitHub, Inc."
               },
@@ -1510,9 +1452,71 @@ http_interactions:
                 "company_name": "GITHUB"
               },
               "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "eNom, Inc.",
+                "expiresDate": 1541893698000,
+                "createdDate": 1194738498000
+              },
+              "mail_provider": [
+                "Google LLC"
+              ],
+              "hostname": "logicalawesome.com",
+              "host_provider": [
+                "GitHub, Inc."
+              ],
+              "computed": {
+                "company_name": "GITHUB"
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "eNom, Inc.",
+                "expiresDate": 1556662508000,
+                "createdDate": 1335824108000
+              },
+              "mail_provider": [],
+              "hostname": "meetgit.com",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GITHUB"
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "eNom, Inc.",
+                "expiresDate": 1555267125000,
+                "createdDate": 1208198325000
+              },
+              "mail_provider": [],
+              "hostname": "mercurialhub.com",
+              "host_provider": [
+                "GitHub, Inc."
+              ],
+              "computed": {
+                "company_name": "GITHUB"
+              },
+              "alexa_rank": null
+            },
+            {
+              "whois": {
+                "registrar": "eNom, Inc.",
+                "expiresDate": 1549058868000,
+                "createdDate": 1328134068000
+              },
+              "mail_provider": [],
+              "hostname": "msysgit.com",
+              "host_provider": [],
+              "computed": {
+                "company_name": "GITHUB"
+              },
+              "alexa_rank": null
             }
           ],
-          "record_count": 117,
+          "record_count": 107,
           "meta": {
             "total_pages": 2,
             "query": "whois_email = 'hostmaster@github.com'",
@@ -1522,5 +1526,5 @@ http_interactions:
           "endpoint": "/v1/domain/github.com/associated"
         }
     http_version: 
-  recorded_at: Sat, 03 Nov 2018 13:06:04 GMT
-recorded_with: VCR 4.0.0
+  recorded_at: Fri, 21 Jun 2019 09:25:30 GMT
+recorded_with: VCR 5.0.0

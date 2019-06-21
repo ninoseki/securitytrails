@@ -2,10 +2,10 @@
 
 RSpec.describe SecurityTrails::Response do
   describe "#to_h" do
-    it "shoud return a genuine Hash" do
+    it "returns a genuine Hash" do
       hash = { first: { second: { third: 1 } } }
       json = hash.to_json
-      res = JSON.parse(json, object_class: SecurityTrails::Response)
+      res = JSON.parse(json, object_class: described_class)
 
       expect(res.first.second.third).to eq(1)
       h = res.to_h
