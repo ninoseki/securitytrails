@@ -23,7 +23,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 03 Nov 2018 13:06:07 GMT
+      - Fri, 21 Jun 2019 09:25:34 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -31,35 +31,35 @@ http_interactions:
       Connection:
       - keep-alive
       X-Ratelimit-Limit-Second:
-      - '2'
+      - '5'
       X-Ratelimit-Remaining-Second:
-      - '1'
+      - '4'
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - ab1kov3cafkrubchsfsie6ffg357emff
+      - 3l8sl3jhmmc4lb85vlhpgpon7jc8nfs3
       X-Kong-Upstream-Latency:
-      - '841'
+      - '560'
       X-Kong-Proxy-Latency:
-      - '1'
+      - '67'
       Via:
       - kong/0.11.2
     body:
       encoding: UTF-8
       string: |-
         {
-          "updatedDate": "2018-09-27T04:00:28-0700",
+          "updatedDate": "2019-05-13T06:58:33-0700",
           "status": "clientUpdateProhibited clientTransferProhibited clientDeleteProhibited",
           "registrarName": "MarkMonitor, Inc.",
           "nameServers": [
-            "ns2.p16.dynect.net",
-            "ns1.p16.dynect.net",
             "ns-1283.awsdns-32.org",
-            "ns-421.awsdns-52.com",
+            "ns1.p16.dynect.net",
             "ns3.p16.dynect.net",
             "ns-1707.awsdns-21.co.uk",
             "ns-520.awsdns-01.net",
-            "ns4.p16.dynect.net"
+            "ns4.p16.dynect.net",
+            "ns-421.awsdns-52.com",
+            "ns2.p16.dynect.net"
           ],
           "expiresDate": "2020-10-09T11:20:50-0700",
           "endpoint": "/v1/domain/github.com/whois",
@@ -69,7 +69,7 @@ http_interactions:
             {
               "type": "technicalContact",
               "state": "CA",
-              "organization_count": 211,
+              "organization_count": 185,
               "organization": "GitHub, Inc.",
               "countryCode": "US",
               "country": "UNITED STATES"
@@ -77,7 +77,7 @@ http_interactions:
             {
               "type": "administrativeContact",
               "state": "CA",
-              "organization_count": 211,
+              "organization_count": 185,
               "organization": "GitHub, Inc.",
               "countryCode": "US",
               "country": "UNITED STATES"
@@ -85,7 +85,7 @@ http_interactions:
             {
               "type": "registrant",
               "state": "CA",
-              "organization_count": 211,
+              "organization_count": 185,
               "organization": "GitHub, Inc.",
               "countryCode": "US",
               "country": "UNITED STATES"
@@ -94,5 +94,5 @@ http_interactions:
           "contactEmail": "abusecomplaints@markmonitor.com"
         }
     http_version: 
-  recorded_at: Sat, 03 Nov 2018 13:06:06 GMT
-recorded_with: VCR 4.0.0
+  recorded_at: Fri, 21 Jun 2019 09:25:29 GMT
+recorded_with: VCR 5.0.0

@@ -23,7 +23,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 03 Nov 2018 13:06:08 GMT
+      - Fri, 21 Jun 2019 09:25:37 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -31,17 +31,17 @@ http_interactions:
       Connection:
       - keep-alive
       X-Ratelimit-Limit-Second:
-      - '2'
+      - '5'
       X-Ratelimit-Remaining-Second:
-      - '1'
+      - '4'
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - v635bd3bf70vpqosom8ognk8j0sesf21
+      - em5r39ggsaifu0f5g87etou3l65qai2h
       X-Kong-Upstream-Latency:
-      - '21'
+      - '22'
       X-Kong-Proxy-Latency:
-      - '2'
+      - '27'
       Via:
       - kong/0.11.2
     body:
@@ -52,5 +52,5 @@ http_interactions:
           "endpoint": "/v1/domain/github.com/tags"
         }
     http_version: 
-  recorded_at: Sat, 03 Nov 2018 13:06:07 GMT
-recorded_with: VCR 4.0.0
+  recorded_at: Fri, 21 Jun 2019 09:25:32 GMT
+recorded_with: VCR 5.0.0

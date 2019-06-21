@@ -4,7 +4,7 @@ RSpec.describe SecurityTrails::Clients::Domains, :vcr do
   subject { SecurityTrails::API.new }
 
   describe "#search" do
-    it "should return a valid JSON" do
+    it "returns a valid JSON" do
       res = subject.domains.search(
         filter: {
           ipv4: "1.1.1.1"
@@ -16,7 +16,7 @@ RSpec.describe SecurityTrails::Clients::Domains, :vcr do
   end
 
   describe "#stats" do
-    it "should return a valid JSON" do
+    it "returns a valid JSON" do
       res = subject.domains.stats(
         filter: {
           ipv4: "1.1.1.1"

@@ -23,23 +23,23 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 03 Nov 2018 13:05:57 GMT
+      - Fri, 21 Jun 2019 09:25:49 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '9682'
+      - '9640'
       Connection:
       - keep-alive
       X-Ratelimit-Limit-Second:
-      - '2'
+      - '5'
       X-Ratelimit-Remaining-Second:
-      - '0'
+      - '4'
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - i2ooiasv0o18t5b0f15coeet8u9sco4d
+      - vrae2hm2ipgdinoj87mq1imr1lddbpkd
       X-Kong-Upstream-Latency:
-      - '458'
+      - '373'
       X-Kong-Proxy-Latency:
       - '1'
       Via:
@@ -51,14 +51,13 @@ http_interactions:
           "result": {
             "items": [
               {
-                "updatedDate": 1371210528534,
-                "tld": "com",
+                "updatedDate": 1371210528000,
                 "status": [
                   "clientDeleteProhibited",
                   "clientTransferProhibited",
                   "clientUpdateProhibited"
                 ],
-                "started": 1409565503690,
+                "started": 1409565503000,
                 "registrarName": "MARKMONITOR INC.",
                 "nameServers": [
                   "NS1.P16.DYNECT.NET",
@@ -66,11 +65,12 @@ http_interactions:
                   "NS3.P16.DYNECT.NET",
                   "NS4.P16.DYNECT.NET"
                 ],
-                "expiresDate": 1602244128534,
-                "ended": 1512131429698,
+                "gtld": true,
+                "full_domain": "github.com",
+                "expiresDate": 1602244128000,
+                "ended": 1512131429000,
                 "domain": "github.com",
-                "createdDate": 1191930528534,
-                "contactEmail": "hostmaster@github.com",
+                "createdDate": 1191930528000,
                 "contact": [
                   {
                     "type": "registrant",
@@ -123,14 +123,13 @@ http_interactions:
                 ]
               },
               {
-                "updatedDate": 1371215538799,
-                "tld": "com",
+                "updatedDate": 1371215538000,
                 "status": [
                   "clientDeleteProhibited",
                   "clientTransferProhibited",
                   "clientUpdateProhibited"
                 ],
-                "started": 1391256566158,
+                "started": 1391256566000,
                 "registrarName": "MARKMONITOR INC.",
                 "nameServers": [
                   "NS1.P16.DYNECT.NET",
@@ -138,11 +137,12 @@ http_interactions:
                   "NS3.P16.DYNECT.NET",
                   "NS4.P16.DYNECT.NET"
                 ],
-                "expiresDate": 1602249138799,
-                "ended": 1398986973772,
+                "gtld": true,
+                "full_domain": "github.com",
+                "expiresDate": 1602249138000,
+                "ended": 1398986973000,
                 "domain": "github.com",
-                "createdDate": 1191935538799,
-                "contactEmail": "hostmaster@github.com",
+                "createdDate": 1191935538000,
                 "contact": [
                   {
                     "type": "registrant",
@@ -195,14 +195,13 @@ http_interactions:
                 ]
               },
               {
-                "updatedDate": 1371202608837,
-                "tld": "com",
+                "updatedDate": 1371202608000,
                 "status": [
                   "clientDeleteProhibited",
                   "clientTransferProhibited",
                   "clientUpdateProhibited"
                 ],
-                "started": 1375343965737,
+                "started": 1375343965000,
                 "registrarName": "MARKMONITOR INC.",
                 "nameServers": [
                   "NS1.P16.DYNECT.NET",
@@ -210,11 +209,12 @@ http_interactions:
                   "NS3.P16.DYNECT.NET",
                   "NS4.P16.DYNECT.NET"
                 ],
-                "expiresDate": 1602236208837,
-                "ended": 1383292780796,
+                "gtld": true,
+                "full_domain": "github.com",
+                "expiresDate": 1602236208000,
+                "ended": 1383292780000,
                 "domain": "github.com",
-                "createdDate": 1191922608837,
-                "contactEmail": "hostmaster@github.com",
+                "createdDate": 1191922608000,
                 "contact": [
                   {
                     "type": "registrant",
@@ -271,27 +271,27 @@ http_interactions:
                 ]
               },
               {
-                "updatedDate": 1313982220266,
-                "tld": "com",
+                "updatedDate": 1313982220000,
                 "status": [
                   "clientDeleteProhibited",
                   "clientRenewProhibited",
                   "clientTransferProhibited",
                   "clientUpdateProhibited"
                 ],
-                "started": 1347318661361,
-                "registrarName": "GODADDY.COM, LLC",
+                "started": 1347318661000,
+                "registrarName": "GODADDY.COM LLC",
                 "nameServers": [
                   "NS1.P16.DYNECT.NET",
                   "NS2.P16.DYNECT.NET",
                   "NS3.P16.DYNECT.NET",
                   "NS4.P16.DYNECT.NET"
                 ],
-                "expiresDate": 1539054220267,
-                "ended": 1363303077253,
+                "gtld": true,
+                "full_domain": "github.com",
+                "expiresDate": 1539054220000,
+                "ended": 1363303077000,
                 "domain": "github.com",
-                "createdDate": 1191899020266,
-                "contactEmail": "tom@github.com",
+                "createdDate": 1191899020000,
                 "contact": [
                   {
                     "type": "registrant",
@@ -349,5 +349,5 @@ http_interactions:
           "endpoint": "/v1/history/github.com/whois/"
         }
     http_version: 
-  recorded_at: Sat, 03 Nov 2018 13:05:56 GMT
-recorded_with: VCR 4.0.0
+  recorded_at: Fri, 21 Jun 2019 09:25:43 GMT
+recorded_with: VCR 5.0.0
