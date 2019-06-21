@@ -67,8 +67,8 @@ api.ips.stats("ptr_part = 'amazon.com'")
 
 # Feeds
 # https://docs.securitytrails.com/v1.0/reference#feeds
-api.feeds.domain("new")
-api.feeds.domain("new", tld: "jp")
+api.feeds.domains("new")
+api.feeds.domains("new", tld: "jp")
 ```
 
 All the API response (JSON / Hash) is wrapped by [OpenStruct](https://github.com/ruby/ostruct).
