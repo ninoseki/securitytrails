@@ -42,7 +42,7 @@ module SecurityTrails
         raise(Error, "unsupported response code returned: #{response.code}") unless response.code == "200"
 
         if response["Content-Type"].to_s.include? "application/json"
-          yield JSON.parse(response.body, object_class: Response)
+          yield JSON.parse(response.body)
         else
           yield response.body
         end

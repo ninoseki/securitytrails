@@ -23,25 +23,25 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 21 Jun 2019 09:25:37 GMT
+      - Sun, 20 Oct 2019 01:10:52 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '3424'
+      - '3421'
       Connection:
       - keep-alive
       X-Ratelimit-Limit-Second:
       - '5'
       X-Ratelimit-Remaining-Second:
-      - '3'
+      - '4'
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - ab4cp1hcrjp3ejfm6p9f84ktkvfm3aeb
+      - rhmn6j19p1fnjjoljqt3mlv5tfh50u02
       X-Kong-Upstream-Latency:
-      - '412'
+      - '562'
       X-Kong-Proxy-Latency:
-      - '35'
+      - '63'
       Via:
       - kong/0.11.2
     body:
@@ -75,7 +75,7 @@ http_interactions:
               "values": [
                 {
                   "ttl": 7200,
-                  "email_count": 2174697,
+                  "email_count": 2238662,
                   "email": "awsdns-hostmaster.amazon.com"
                 }
               ],
@@ -85,42 +85,42 @@ http_interactions:
               "values": [
                 {
                   "nameserver_organization": "Oracle Corporation",
-                  "nameserver_count": 6217,
+                  "nameserver_count": 5505,
                   "nameserver": "ns4.p16.dynect.net"
                 },
                 {
                   "nameserver_organization": "Oracle Corporation",
-                  "nameserver_count": 6208,
+                  "nameserver_count": 5501,
                   "nameserver": "ns3.p16.dynect.net"
                 },
                 {
                   "nameserver_organization": "Oracle Corporation",
-                  "nameserver_count": 6213,
+                  "nameserver_count": 5507,
                   "nameserver": "ns2.p16.dynect.net"
                 },
                 {
                   "nameserver_organization": "Oracle Corporation",
-                  "nameserver_count": 6214,
+                  "nameserver_count": 5504,
                   "nameserver": "ns1.p16.dynect.net"
                 },
                 {
                   "nameserver_organization": "Amazon.com, Inc.",
-                  "nameserver_count": 4123,
+                  "nameserver_count": 4208,
                   "nameserver": "ns-520.awsdns-01.net"
                 },
                 {
                   "nameserver_organization": "Amazon.com, Inc.",
-                  "nameserver_count": 4077,
+                  "nameserver_count": 4228,
                   "nameserver": "ns-421.awsdns-52.com"
                 },
                 {
                   "nameserver_organization": "Amazon.com, Inc.",
-                  "nameserver_count": 4243,
+                  "nameserver_count": 4305,
                   "nameserver": "ns-1707.awsdns-21.co.uk"
                 },
                 {
                   "nameserver_organization": "Amazon.com, Inc.",
-                  "nameserver_count": 4057,
+                  "nameserver_count": 4139,
                   "nameserver": "ns-1283.awsdns-32.org"
                 }
               ],
@@ -131,31 +131,31 @@ http_interactions:
                 {
                   "priority": 10,
                   "hostname_organization": "Google LLC",
-                  "hostname_count": 4501023,
+                  "hostname_count": 4806320,
                   "hostname": "alt4.aspmx.l.google.com"
                 },
                 {
                   "priority": 10,
                   "hostname_organization": "Google LLC",
-                  "hostname_count": 4564741,
+                  "hostname_count": 4866953,
                   "hostname": "alt3.aspmx.l.google.com"
                 },
                 {
                   "priority": 5,
                   "hostname_organization": "Google LLC",
-                  "hostname_count": 10449480,
+                  "hostname_count": 10544896,
                   "hostname": "alt2.aspmx.l.google.com"
                 },
                 {
                   "priority": 5,
                   "hostname_organization": "Google LLC",
-                  "hostname_count": 10530200,
+                  "hostname_count": 10621463,
                   "hostname": "alt1.aspmx.l.google.com"
                 },
                 {
                   "priority": 1,
                   "hostname_organization": "Google LLC",
-                  "hostname_count": 10805021,
+                  "hostname_count": 10890802,
                   "hostname": "aspmx.l.google.com"
                 }
               ],
@@ -166,15 +166,15 @@ http_interactions:
               "values": [
                 {
                   "ip_organization": "GitHub, Inc.",
-                  "ip_count": 470,
-                  "ip": "192.30.253.112"
+                  "ip_count": 18,
+                  "ip": "140.82.114.4"
                 }
               ],
               "first_seen": null
             }
           },
-          "alexa_rank": 41
+          "alexa_rank": 84
         }
     http_version: 
-  recorded_at: Fri, 21 Jun 2019 09:25:31 GMT
+  recorded_at: Sun, 20 Oct 2019 01:10:52 GMT
 recorded_with: VCR 5.0.0

@@ -23,7 +23,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 21 Jun 2019 09:25:49 GMT
+      - Sun, 20 Oct 2019 01:11:26 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -33,15 +33,15 @@ http_interactions:
       X-Ratelimit-Limit-Second:
       - '5'
       X-Ratelimit-Remaining-Second:
-      - '3'
+      - '4'
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - bhakv990057i9sksa1upnv33jgkh8cbq
+      - p1neb2kbomlgip141a7g1ahasokaulns
       X-Kong-Upstream-Latency:
-      - '91'
+      - '186'
       X-Kong-Proxy-Latency:
-      - '1'
+      - '2'
       Via:
       - kong/0.11.2
     body:
@@ -135,5 +135,5 @@ http_interactions:
           "endpoint": "/v1/ips/stats"
         }
     http_version: 
-  recorded_at: Fri, 21 Jun 2019 09:25:44 GMT
+  recorded_at: Sun, 20 Oct 2019 01:11:26 GMT
 recorded_with: VCR 5.0.0
