@@ -1,35 +1,32 @@
 # frozen_string_literal: true
 
 RSpec.describe SecurityTrails::Clients::History, :vcr do
-  subject { SecurityTrails::API.new }
+  let(:api) { SecurityTrails::API.new }
 
   describe "#get_dns_history" do
-    it "returns a valid JSON" do
-      res = subject.history.get_dns_history("github.com", "a")
-      expect(res.records).to be_an(Array)
-      first = res.records.first
-      expect(first.values.first.ip).to be_a(String)
+    it do
+      res = api.history.get_dns_history("github.com", "a")
+      expect(res).to be_a(Hash)
     end
+
     context "when given an invalid type" do
-      it "raises an ArgumentError" do
-        expect { subject.history.get_dns_history("github.com", "invalid") }.to raise_error(ArgumentError)
+      it do
+        expect { api.history.get_dns_history("github.com", "invalid") }.to raise_error(ArgumentError)
       end
     end
   end
 
   describe "#get_all_dns_history" do
-    it "returns a valid JSON" do
-      res = subject.history.get_all_dns_history("github.com", "a")
-      records = res.records
-      expect(records).to be_an(Array)
-      expect(records.length).to eq(records.uniq.length)
+    it do
+      res = api.history.get_all_dns_history("github.com", "a")
+      expect(res).to be_a(Hash)
     end
   end
 
   describe "#get_whois_history" do
-    it "returns a valid JSON" do
-      res = subject.history.get_whois_history("github.com")
-      expect(res.result.items).to be_an(Array)
+    it do
+      res = api.history.get_whois_history("github.com")
+      expect(res).to be_a(Hash)
     end
   end
 end

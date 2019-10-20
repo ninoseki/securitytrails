@@ -23,25 +23,25 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 21 Jun 2019 09:25:50 GMT
+      - Sun, 20 Oct 2019 01:11:25 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '992'
+      - '994'
       Connection:
       - keep-alive
       X-Ratelimit-Limit-Second:
       - '5'
       X-Ratelimit-Remaining-Second:
-      - '3'
+      - '4'
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - r0l4isofuak6atdnqr4d0ii3ng6tkpe4
+      - 53e8kjaflrj0cvb8gfs97t7ks58ks9mi
       X-Kong-Upstream-Latency:
-      - '73'
+      - '248'
       X-Kong-Proxy-Latency:
-      - '1'
+      - '4'
       Via:
       - kong/0.11.2
     body:
@@ -55,23 +55,23 @@ http_interactions:
               "ip": "8.8.8.0/32"
             },
             {
-              "sites": 13,
+              "sites": 20,
               "ip": "8.8.8.1/32"
             },
             {
-              "sites": 4,
+              "sites": 6,
               "ip": "8.8.8.2/32"
             },
             {
-              "sites": 2,
+              "sites": 8,
               "ip": "8.8.8.3/32"
             },
             {
-              "sites": 15,
+              "sites": 13,
               "ip": "8.8.8.4/32"
             },
             {
-              "sites": 0,
+              "sites": 2,
               "ip": "8.8.8.5/32"
             },
             {
@@ -79,24 +79,24 @@ http_interactions:
               "ip": "8.8.8.6/32"
             },
             {
-              "sites": 8,
+              "sites": 10,
               "ip": "8.8.8.7/32"
             },
             {
-              "sites": 22149,
+              "sites": 23556,
               "ip": "8.8.8.8/32",
               "current": true
             },
             {
-              "sites": 27,
+              "sites": 25,
               "ip": "8.8.8.9/32"
             },
             {
-              "sites": 3,
+              "sites": 13,
               "ip": "8.8.8.10/32"
             },
             {
-              "sites": 2,
+              "sites": 1,
               "ip": "8.8.8.11/32"
             },
             {
@@ -118,5 +118,5 @@ http_interactions:
           ]
         }
     http_version: 
-  recorded_at: Fri, 21 Jun 2019 09:25:45 GMT
+  recorded_at: Sun, 20 Oct 2019 01:11:25 GMT
 recorded_with: VCR 5.0.0

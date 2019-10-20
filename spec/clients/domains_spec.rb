@@ -1,28 +1,19 @@
 # frozen_string_literal: true
 
 RSpec.describe SecurityTrails::Clients::Domains, :vcr do
-  subject { SecurityTrails::API.new }
+  let(:api) { SecurityTrails::API.new }
 
   describe "#search" do
-    it "returns a valid JSON" do
-      res = subject.domains.search(
-        filter: {
-          ipv4: "1.1.1.1"
-        }
-      )
-      expect(res.records).to be_an(Array)
-      expect(res.to_h).to be_a(Hash)
+    it do
+      res = api.domains.search(filter: { ipv4: "1.1.1.1" })
+      expect(res).to be_a(Hash)
     end
   end
 
   describe "#stats" do
-    it "returns a valid JSON" do
-      res = subject.domains.stats(
-        filter: {
-          ipv4: "1.1.1.1"
-        }
-      )
-      expect(res.tld_count).to be_an(Integer)
+    it do
+      res = api.domains.stats(filter: { ipv4: "1.1.1.1" })
+      expect(res).to be_a(Hash)
     end
   end
 end

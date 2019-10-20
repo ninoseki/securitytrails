@@ -5,7 +5,6 @@ require "securitytrails/version"
 require "securitytrails/utility"
 
 require "securitytrails/api"
-require "securitytrails/response"
 require "securitytrails/client"
 
 require "securitytrails/clients/domain"
