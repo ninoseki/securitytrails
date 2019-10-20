@@ -5,20 +5,20 @@ RSpec.describe SecurityTrails::Clients::History, :vcr do
 
   describe "#get_dns_history" do
     it do
-      res = api.history.get_dns_history("github.com", "a")
+      res = api.history.get_dns_history("github.com", type: "a")
       expect(res).to be_a(Hash)
     end
 
     context "when given an invalid type" do
       it do
-        expect { api.history.get_dns_history("github.com", "invalid") }.to raise_error(ArgumentError)
+        expect { api.history.get_dns_history("github.com", type: "invalid") }.to raise_error(ArgumentError)
       end
     end
   end
 
   describe "#get_all_dns_history" do
     it do
-      res = api.history.get_all_dns_history("github.com", "a")
+      res = api.history.get_all_dns_history("github.com", type: "a")
       expect(res).to be_a(Hash)
     end
   end

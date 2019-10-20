@@ -55,8 +55,8 @@ api.domains.stats(
 
 # History
 # https://docs.securitytrails.com/v1.0/reference#history
-api.history.get_dns_history("github.com", "a")
-api.history.get_all_dns_history("github.com", "a")
+api.history.get_dns_history("github.com", type: "a")
+api.history.get_all_dns_history("github.com", type: "a")
 api.history.get_whois_history("github.com")
 
 # IPs
