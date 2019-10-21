@@ -1,11 +1,30 @@
 # frozen_string_literal: true
 
+require "forwardable"
+
 module SecurityTrails
   class API
+    extend Forwardable
+
     attr_reader :api_key
+
     def initialize(api_key = ENV["SECURITYTRAILS_API_KEY"])
       @api_key = api_key
       raise ArgumentError, "'api_key' argument is required" unless api_key
+    end
+
+    #
+    # General API client
+    #
+    # @return [SecurityTrails::Clients::General]
+    #
+    def general
+      @general ||= Clients::General.new(api_key)
+    end
+
+    %w(ping usage scroll).each do |delegate_method|
+      sym = delegate_method.to_sym
+      def_delegator :general, sym, sym
     end
 
     #

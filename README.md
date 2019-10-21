@@ -33,6 +33,11 @@ api = SecurityTrails::API.new
 # or you can pass your API key as an argument
 api = SecurityTrails::API.new(YOUR_API_KEY)
 
+# General
+# https://docs.securitytrails.com/reference#general
+api.ping
+api.usage
+
 # Domain details
 # https://docs.securitytrails.com/v1.0/reference#domains
 api.domain.get_by_hostname("github.com")
