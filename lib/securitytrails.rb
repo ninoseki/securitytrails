@@ -7,6 +7,8 @@ require "securitytrails/utility"
 require "securitytrails/api"
 require "securitytrails/client"
 
+require "securitytrails/clients/general"
+
 require "securitytrails/clients/domain"
 require "securitytrails/clients/domains"
 require "securitytrails/clients/feeds"
