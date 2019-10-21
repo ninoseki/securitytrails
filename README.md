@@ -76,16 +76,6 @@ api.feeds.domains("new")
 api.feeds.domains("new", tld: "jp")
 ```
 
-All the API response (JSON / Hash) is wrapped by [OpenStruct](https://github.com/ruby/ostruct).
-
-It means you can access to a response through a property-like syntax.
-
-```ruby
-res = api.domain.get_by_hostname("github.com")
-puts res.hostname # => "github.com"
-puts res.current_dns.a.first_seen # => "2018-09-12"
-```
-
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/ninoseki/securitytrails.
