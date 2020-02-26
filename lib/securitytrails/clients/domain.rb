@@ -67,6 +67,24 @@ module SecurityTrails
       def get_whois(hostname)
         get("/domain/#{hostname}/whois") { |json| json }
       end
+
+      #
+      # Fetch current and historical certificate information for any hostname.
+      #
+      # @see https://docs.securitytrails.com/reference#domain-ssl-certificates
+      #
+      # @param [String] hostname
+      #
+      # @return [Hash]
+      #
+      def get_ssl_certificates(hostname, include_subdomains = false, status = "valid", page = 1)
+        params = {
+          include_subdomains: include_subdomains,
+          status: status,
+          page: page
+        }.compact
+        get("/domain/#{hostname}/ssl", params) { |json| json }
+      end
     end
   end
 end

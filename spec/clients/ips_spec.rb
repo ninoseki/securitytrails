@@ -23,4 +23,11 @@ RSpec.describe SecurityTrails::Clients::IPs, :vcr do
       expect(res).to be_a(Hash)
     end
   end
+
+  describe "#useragents" do
+    it do
+      # res = subject.ips.get_useragents("192.0.2.1")
+      # expect(res).to be_an(Array)
+    end
+  end
 end

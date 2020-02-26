@@ -41,6 +41,32 @@ module SecurityTrails
       def stats(query)
         post("/ips/stats", query: query) { |json| json }
       end
+
+      #
+      # Fetch user agents seen for a specific IPv4 address
+      #
+      # @see https://docs.securitytrails.com/reference#ip-useragents
+      #
+      # @param [String] ip_address
+      #
+      # @return [Hash]
+      #
+      def get_useragents(ip_address)
+        get("/ips/#{ip_address}/useragents") { |json| json }
+      end
+
+      #
+      # Fetch current IP information for a single IPv4 address.
+      #
+      # @see https://docs.securitytrails.com/reference#ip-whois
+      #
+      # @param [String] ip_address
+      #
+      # @return [Hash]
+      #
+      def get_whois(ip_address)
+        get("/ips/#{ip_address}/whois") { |json| json }
+      end
     end
   end
 end
