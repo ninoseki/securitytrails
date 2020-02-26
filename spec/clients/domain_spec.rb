@@ -37,4 +37,11 @@ RSpec.describe SecurityTrails::Clients::Domain, :vcr do
       expect(res).to be_a(Hash)
     end
   end
+
+  describe "#get_ssl_certificates" do
+    it do
+      # res = subject.domain.get_ssl_certificates("github.com")
+      # expect(res).to be_a(JSON)
+    end
+  end
 end
