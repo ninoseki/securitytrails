@@ -1,7 +1,7 @@
 # SecurityTrails
 
 [![Gem Version](https://badge.fury.io/rb/securitytrails.svg)](https://badge.fury.io/rb/securitytrails)
-[![Build Status](https://travis-ci.org/ninoseki/securitytrails.svg?branch=master)](https://travis-ci.org/ninoseki/securitytrails)
+[![Build Status](https://travis-ci.com/ninoseki/securitytrails.svg?branch=master)](https://travis-ci.com/ninoseki/securitytrails)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9637f5ed2b8943c28d9d61db778330fb)](https://www.codacy.com/app/ninoseki/securitytrails)
 [![Coverage Status](https://coveralls.io/repos/github/ninoseki/securitytrails/badge.svg?branch=master)](https://coveralls.io/github/ninoseki/securitytrails?branch=master)
 
